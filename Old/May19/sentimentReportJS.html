@@ -1,0 +1,684 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="comment.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<style>
+		.mainWindowA {    
+			width: 60%}
+		.commentWindowA {    
+			width: 40%}
+	</style>
+</head>
+<body>
+<div class="logo">
+</div>
+<div class="menu">
+	<ul class="menuL">
+	  <li class="menuL"><a href="index.html">Home</a></li>
+	  <li class="menuL"><a href="authors.html">Leaflet Authors</a></li>
+	  <li class="menuL"><a href="demo.html">Demos</a></li>
+	</ul>
+</div>
+<div class="content">
+	<div class="instructions unselectable" id="p0">
+		<h2>instructions: Please select a paragraph to see its comments.</h2>
+	</div>
+<div class="mainWindowA" id="mainWindowA">
+		
+	</div>
+<div class="commentWindowA">
+	<div class="commentd class="sTD"isplay" id="commentd class="sTD"isplay">
+		<h1>The sentiment distribution of this leaflet comments was:</h1>
+		<table class="sentimentd class="sTD"isT">
+			<tbody class="sP0 sParagraph">
+				<tr>
+					<th>
+						<label>General Comments</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value="9"></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value="0"></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value="10"></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP1 sParagraph">
+				<tr>
+					<th>
+						<label>P1</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value=""></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP2 sParagraph">
+				<tr>
+					<th>
+						<label>P2</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value="4"></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value="3"></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value=""></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP3 sParagraph">
+				<tr>
+					<th>
+						<label>P3</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value=""></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP4 sParagraph">
+				<tr>
+					<th>
+						<label>P4</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value="2"></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value="3"></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP5 sParagraph">
+				<tr>
+					<th>
+						<label>P5</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value="3"></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value="4"></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value=""></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP6 sParagraph">
+				<tr>
+					<th>
+						<label>P6</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value=""></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP7 sParagraph">
+				<tr>
+					<th>
+						<label>P7</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value="1"></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP8 sParagraph">
+				<tr>
+					<th>
+						<label>P8</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value="4"></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value="8"></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value=""></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP9 sParagraph">
+				<tr>
+					<th>
+						<label>P9</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value="3"></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value="5"></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value="1"></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP10 sParagraph">
+				<tr>
+					<th>
+						<label>P10</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value=""></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP11 sParagraph">
+				<tr>
+					<th>
+						<label>P11</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value="1"></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value="3"></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value="0"></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP12 sParagraph">
+				<tr>
+					<th>
+						<label>P12</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value="1"></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value=""></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP13 sParagraph">
+				<tr>
+					<th>
+						<label>P13</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value="1"></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value="3"></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value="1"></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP14 sParagraph">
+				<tr>
+					<th>
+						<label>P14</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value=""></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP15 sParagraph">
+				<tr>
+					<th>
+						<label>P15</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value="2"></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value="3"></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value="2"></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP16 sParagraph">
+				<tr>
+					<th>
+						<label>P16</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value=""></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP17 sParagraph">
+				<tr>
+					<th>
+						<label>P17</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value="1"></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value=""></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP18 sParagraph">
+				<tr>
+					<th>
+						<label>P18</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value="1"></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value=""></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP19 sParagraph">
+				<tr>
+					<th>
+						<label>P19</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value="1"></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value="1"></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP20 sParagraph">
+				<tr>
+					<th>
+						<label>P20</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value=""></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP21 sParagraph">
+				<tr>
+					<th>
+						<label>P21</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value=""></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP22 sParagraph">
+				<tr>
+					<th>
+						<label>P22</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value="1"></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value=""></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP23 sParagraph">
+				<tr>
+					<th>
+						<label>P23</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value="1"></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value="2"></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP24 sParagraph">
+				<tr>
+					<th>
+						<label>P24</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value="1"></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value=""></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP25 sParagraph">
+				<tr>
+					<th>
+						<label>P25</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value="1"></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP26 sParagraph">
+				<tr>
+					<th>
+						<label>P26</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value="1"></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value=""></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP27 sParagraph">
+				<tr>
+					<th>
+						<label>P27</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value="1"></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value="1"></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP28 sParagraph">
+				<tr>
+					<th>
+						<label>P28</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value=""></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP29 sParagraph">
+				<tr>
+					<th>
+						<label>P29</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value="1"></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value="1"></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value=""></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP30 sParagraph">
+				<tr>
+					<th>
+						<label>P30</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value="1"></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP31 sParagraph">
+				<tr>
+					<th>
+						<label>P31</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value="2"></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP32 sParagraph">
+				<tr>
+					<th>
+						<label>P32</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value=""></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP33 sParagraph">
+				<tr>
+					<th>
+						<label>P33</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value=""></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP34 sParagraph">
+				<tr>
+					<th>
+						<label>P34</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value=""></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP35 sParagraph">
+				<tr>
+					<th>
+						<label>P35</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value="1"></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value="1"></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value=""></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP36 sParagraph">
+				<tr>
+					<th>
+						<label>P36</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value=""></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+			<tbody class="sP37 sParagraph">
+				<tr>
+					<th>
+						<label>P37</label>
+					</th>
+					<td class="sTD">
+						<label>Negative Comments:</label>
+						<meter min="0" max="10" value="1"></meter><br>
+						<label>Neutral Comments:</label>
+						<meter min="0" max="10" value=""></meter><br>
+						<label>Positive Comments:</label>
+						<meter min="0" max="10" value=""></meter>
+					</td class="sTD">
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>	
+</div>
+<div class="foot">
+	<span>Created by Fernando Santos, <a class="emailPI" href="mailto:fs1g15@soton.ac.uk&subject=W2Pi Contact">fss1g15@soton.ac.uk</a>&nbsp;2018. Proudly created with the sponsorship of <a href="https://www.conacyt.gob.mx/" target="_blank" data-content="https://www.conacyt.gob.mx/" data-type="external" rel="nofollow">CONACYT&nbsp;</a> and <a href="https://www.southampton.ac.uk/" target="_blank" data-content="https://www.southampton.ac.uk/" data-type="external" rel="nofollow">The University of Southampton&nbsp;</a><span style="display:none;">&nbsp;</span></span>
+</div>
+
+<script>
+	function getSelected() {
+		if (window.getSelection) {
+			return window.getSelection();
+		}
+		else if (document.getSelection) {
+			return document.getSelection();
+		}
+		else {
+			var selection = document.selection && document.selection.createRange();
+			if (selection.text) {
+				return selection.text;
+			}
+			return false;
+		}
+		return false;
+	}
+	function myFunction() {
+		var x = document.getElementById("myDIV");
+		if (x.style.display === "none") {
+			x.style.display = "block";
+		} else {
+			x.style.display = "none";
+		}
+	} 
+	
+	$(document).ready(function() {
+		
+      var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById('mainWindowA').innerHTML = this.responseText;
+            }
+        };
+        xmlhttp.open('GET', 'commentShowAuthorJS.php', true);
+        xmlhttp.send();
+		
+		$('.paragraphA td class="sTD"').click(function(){
+			$('tbody.pDiv').fadeOut();
+			$(this).parent().parent().addClass('active'); /*Allows for CSS hover and different styles for link clicks.*/
+			$(this).parent().parent().siblings().removeClass('active'); /*Allows for CSS hover and different styles for link clicks.*/
+			$i=$(this).parent().parent().attr("value");
+			$pIdAs= $i.split(",");
+			for(j=0;j<$pIdAs.length;j++){
+				$elem=document.getElementById($pIdAs[j]);
+				$($elem).fadeIn();
+			}
+		});
+			
+	});
+	/*$(function(){
+		//$('#commentWindow tbody').style.display="none";
+		$('div.paragraphA').click(function(){
+			$(this).addClass('active'); /*Allows for CSS hover and different styles for link clicks.
+			$(this).siblings().removeClass('active'); /*Allows for CSS hover and different styles for link clicks.
+			$i=$(this).attr("value");
+			$pIdAs= $i.split(",");
+			//alert($pIdAs[0]);
+			//$elem.style.display="block";
+			//$('#commentWindow tbody').style.display="none";
+			$elem=document.getElementById($pIdAs[0]);
+			//$elem.style.display="block";
+			$($elem).removeClass("hidden");
+			$($elem).siblings().addClass("hidden");
+			/*document.getElementById($pIdAs[0]).style.display="block";
+			document.getElementById($pIdAs[0]).siblings().style.display="none";
+			
+			//removeClass('hidden');
+			//window.location = $(this).nearest('a').attr('href'); /*Go there! Only works with jquery 1.3 (due to the use of nearest. 
+		}); //End Click*/
+	//}); //End OnReady
+</script>
+</body>
+</html>

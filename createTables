@@ -1,0 +1,23 @@
+create table clozeWords (id INT not null auto_increment,idReviewer varchar(20),idLeaflet varchar(20),clozeField1 varchar(500),clozeField2 varchar(500),clozeField3 varchar(500),clozeField4 varchar(500),clozeField5 varchar(500),clozeField6 varchar(500),clozeField7 varchar(500),clozeField8 varchar(500),clozeField9 varchar(500),clozeField10 varchar(500),clozeField11 varchar(500),clozeField12 varchar(500),clozeField13 varchar(500),clozeField14 varchar(500),clozeField15 varchar(500),clozeField16 varchar(500),clozeField17 varchar(500),clozeField18 varchar(500),clozeField19 varchar(500),clozeField20 varchar(500),clozeField21 varchar(500),clozeField22 varchar(500),clozeField23 varchar(500),clozeField24 varchar(500),clozeField25 varchar(500),clozeField26 varchar(500),clozeField27 varchar(500),clozeField28 varchar(500),clozeField29 varchar(500),clozeField30 varchar(500),clozeField31 varchar(500),clozeField32 varchar(500),cAns1 varchar(500),cAns2 varchar(500),cAns3 varchar(500),cAns4 varchar(500),cAns5 varchar(500),cAns6 varchar(500),cAns7 varchar(500),cAns8 varchar(500),cAns9 varchar(500),cAns10 varchar(500),cAns11 varchar(500),cAns12 varchar(500),cAns13 varchar(500),cAns14 varchar(500),cAns15 varchar(500),cAns16 varchar(500),cAns17 varchar(500),cAns18 varchar(500),cAns19 varchar(500),cAns20 varchar(500),cAns21 varchar(500),cAns22 varchar(500),cAns23 varchar(500),cAns24 varchar(500),cAns25 varchar(500),cAns26 varchar(500),cAns27 varchar(500),cAns28 varchar(500),cAns29 varchar(500),cAns30 varchar(500),cAns31 varchar(500),cAns32 varchar(500),primary key (id));
+create table equip (idEqip INT not null auto_increment,question varchar(1000),primary key (idEqip));
+
+create table paragraph (idParagraph INT not null auto_increment,idLeaflet varchar(20),leafletAcronym varchar(20), text varchar(10000),class varchar(100), idInternal varchar(11), question varchar(1000),primary key (idParagraph));
+create table rComment (idComment INT not null auto_increment,idReviewer varchar(45),idLeaflet varchar(20),assocText varchar(10000), text varchar(10000),emotionVector varchar(3), idParagraph varchar(450), comment varchar(10000),reasonVector varchar(3),otherReason varchar(10000), otherEmotion varchar(10000),priority varchar(3),primary key (idComment));
+
+create table reviewer (idReviewer INT not null auto_increment,rEmail varchar(450),rInterest varchar(3),rHealth varchar(3),rAge varchar(3),rEducation varchar(3),primary key (idReviewer));
+
+create table Qs (id INT not null auto_increment,idReviewer varchar(20),idLeaflet varchar(20),Q1 varchar(5),Q2 varchar(5),Q3 varchar(5),Q4 varchar(5),Q5 varchar(5),Q6 varchar(5),Q7 varchar(5),Q8 varchar(5),Q9 varchar(5),Q10 varchar(5),Q11 varchar(5),Q12 varchar(5),Q13 varchar(5),Q14 varchar(5),Q15 varchar(5),Q16 varchar(5),Q17 varchar(5),Q18 varchar(5),Q19 varchar(5),Q20 varchar(5),Q21 varchar(5),Q22 varchar(5),Q23 varchar(5),Q24 varchar(5),Q25 varchar(5),Q26 varchar(5),Q27 varchar(5),Q28 varchar(5),Q29 varchar(5),Q30 varchar(5),Q31 varchar(5),Q32 varchar(50),Q33 varchar(5000),Q34 varchar(5000),Q35 varchar(50),primary key (id));
+
+LOAD DATA LOCAL INFILE '/var/www/html/w8pi/eqip.csv' 
+INTO TABLE eqip 
+FIELDS TERMINATED BY ';' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE '/var/www/html/w8pi/paragraph.csv' 
+INTO TABLE paragraph 
+FIELDS TERMINATED BY ';' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;

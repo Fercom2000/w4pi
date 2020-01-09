@@ -1,0 +1,53 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="comment.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="libraries/bootstrap/bootstrap.min.js"></script>
+	<script src="libraries/d3/d3.min.js"></script>
+</head>
+<body>
+<div class="logo">
+</div>
+<div class="menu">
+	<ul class="menuL">
+	  <li class="menuL"><a href="home.html">Home</a></li>
+	  <li class="menuL"><a href="contact.html">Leaflet Authors</a></li>
+	  <li class="menuL"><a href="demo.html">Demos</a></li>
+	</ul>
+</div>
+<div class="content">
+	<div class="instructions unselectable" id="p0">
+		<h2>instructions: Please select a paragraph to see its comments.</h2>
+	</div>
+	<div class="mainWindowA" id="leafletText">
+	</div>
+	<div class="commentWindowA">
+		<div class="commentDisplay" id="commentDisplay">
+			<h1>Comments for this leaflet</h1>
+			<table class="tComments" id="tComments">
+			</table>
+		</div>
+	</div>	
+</div>
+<div class="foot">
+	<span>Created by Fernando Santos, <a class="emailPI" href="mailto:fs1g15@soton.ac.uk&subject=W2Pi Contact">fss1g15@soton.ac.uk</a>&nbsp;2018. Proudly created with the sponsorship of <a href="https://www.conacyt.gob.mx/" target="_blank" data-content="https://www.conacyt.gob.mx/" data-type="external" rel="nofollow">CONACYT&nbsp;</a> and <a href="https://www.southampton.ac.uk/" target="_blank" data-content="https://www.southampton.ac.uk/" data-type="external" rel="nofollow">The University of Southampton&nbsp;</a><span style="display:none;">&nbsp;</span></span>
+</div>
+
+<script>
+	d3.json("sentimentData.php", function(error,data){
+		data.forEach(function (d){
+			var labels=[];
+			var comments=[];
+			for (var i=0; i<d.length;i++){
+				labels.push(d.label);
+				comments.push(d.comment);
+				var t=comments[i]+labels[i];
+				d3.select("tComments")
+					.append("tbody").html("<tr><td>"+comments[i]+"</td><td>"+labels[i]+"</td></tr>");
+			}
+		})
+	});
+		
+</script>
+</body>
+</html>

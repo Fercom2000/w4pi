@@ -1,0 +1,35 @@
+create table mtkCrwRevision (idCrwRevision INT not null auto_increment,idReviser varchar(20),idLeaflet varchar(20),idSentence varchar(20),crwRevision varchar(8000),dateT timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,flag varchar(10) default '0',primary key (idCrwRevision));
+
+create table orgSentence (idOrgSentence INT not null auto_increment,SID varchar(20),Sentence varchar(2000),Section varchar(2000),SMean varchar(20),SStDev varchar(20),SCoeVar varchar(20),dateT timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,flag varchar(10) default '0',primary key (idOrgSentence));
+
+LOAD DATA INFILE 'c:/tmp/discounts.csv' 
+INTO TABLE discounts 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+LOAD DATA INFILE '/home/fercom/Documents/27SelectedHardSentences.csv' INTO TABLE orgSentence FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+
+
+
+create table S6Revision (idRevision INT not null auto_increment,RID varchar(20),idReviser varchar(20),idLeaflet varchar(20),idSentence varchar(20),
+crwRevision varchar(8000),
+dateT timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+g varchar(20),
+flag varchar(10) default '0',
+primary key (idRevision));
+
+LOAD DATA INFILE '/home/fercom/Documents/1252Revisions3Leaflets.csv' INTO TABLE S6Revision FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+
+INSERT INTO
+S6Revision (RID,idRevisor,idLeaflet,idSentence,crwRevision,dateT,g,flag)
+VALUES
+('91','A1W89GXH3DEF23','2','264','As part of your agreement to take part in this study, we will use your personal information to conduct and understand the study','2019-08-17 18:26:06','21','123');
+
+create table S6Ranking (idRanking INT not null auto_increment,RID varchar(20),idReviser varchar(20),idLeaflet varchar(20),idSentence varchar(20),
+crwRevision varchar(8000),
+dateT timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+g varchar(20),
+flag varchar(10) default '0',revSent1 varchar(20),revSent2 varchar(20),revSent3 varchar(20),revSent4 varchar(20),revSent5 varchar(20),revSent6 varchar(20),revSent7 varchar(20),revSent8 varchar(20),revSent9 varchar(20),
+primary key (idRanking));

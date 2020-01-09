@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="./css/reviewer.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<title>Web Platform for Public Involvement in Leaflet Design</title>
+	</head>
+	<body>
+		<div class="logo"></div>
+		<nav class="Menu">
+			<ul class="menuL">
+				<li class="menuL "><span class="menuL"><a class="menuL" href="index.html">Home</a></span></li>
+				<li class="menuL"><span class="menuL"><a class="menuL" name="revCPIL1.html">1st Leaflet</a></span></li>
+				<li class="menuL"><span class="menuL"><a class="menuL" name="revCPIL2.html">2nd Leaflet</a></span></li>				
+				<li class="menuL active"><span class="menuL"><a class="menuL" name="revCPIL3.html">3rd Leaflet</a></span></li>
+				<li class="menuL"><span class="menuL"><a class="menuL" name="revCPIL4.html">4th Leaflet</a></span></li>
+				<li class="contact"></li>
+			</ul>
+		</nav>
+		<div class="content">
+			<div class="pil" id="pil"></div>
+			<div class="eqip" id="eqip">
+			</div>
+			<div class="commentWin">
+				<div class="formCont commentForm containerStyle" id="formCont">
+					<form name=cform action="" method="post">
+						<textarea name="lIds" id="lIds" readonly="readonly" rows="3" cols="30" class="hidden" value="3">3</textarea>
+						<textarea name="pIds" id="pIds" readonly="readonly" rows="3" cols="30" class="hidden"></textarea>
+						<textarea name="selectedText" id="selectedText" rows="3" cols="30" class="hidden commentForm AlignTab" required oninvalid="this.setCustomValidity('Please select some text to associate to your comment and click `make a comment` when it appears')"></textarea>
+						<table>
+							<tr>
+								<td class="cRow">
+									<div class="comment cRow">
+										<label>What is the reason of your comment?</label><br>
+										<label><input type="checkbox" id="support" class="reason AlignTab commentForm" name="support" value="0">Congratulate / Give support</label><br>
+										<label><input type="checkbox" id="issue" class="reason AlignTab commentForm" name="issue">Inform about an issue</label><br>
+										<label><input type="checkbox" id="suggestion" class="reason AlignTab commentForm" name="suggestion">Give suggestion / reflection</label><br>
+										<label class="AlignTab">Other reasons:<textarea name="reasonOther" id="reasonOther" rows="1" cols="30" class="AlignTab commentForm"></textarea></label>
+									</div>
+								</td>
+								<td class="cRow">
+									<div class="comment cRow">
+										<label>is your comment positive or negative?</label><br>
+										<label><input type="checkbox" class="emotion AlignTab commentForm" name="positive" id="positive" value="positive">Positive</label><br>
+										<label><input type="checkbox" class="emotion AlignTab commentForm" name="neutral" id="neutral" value="neutral">Neutral</label><br>
+										<label><input type="checkbox" class="emotion AlignTab commentForm" name="negative" id="negative" value="negative">Negative</label><br>
+										<label><div class="AlignTab">Other emotions: <textarea name="emotionOther" id="emotionOther" rows="1" cols="30" class="commentForm"></textarea></div></label>
+									</div><br><br>
+								</td>
+								<td class="cRow">
+									<div class="comment cRowS">
+										<label>Comment priority:</label><br>
+										<label><input type='radio' class='reason AlignTab commentForm' id='priority1' name='priority' value="1">It must be resolved</label><br>
+										<label><input type='radio' class='reason AlignTab commentForm' id='priority2' name='priority'value="2">It would be nice to solve</label><br>
+										<label><input type='radio' class='reason AlignTab commentForm' id='priority3' name='priority'value="3">It is not an issue</label><br>
+									</div><br><br>
+								</td>
+								<td class="cRow" colspan="3">
+									<div class="comment cRow">
+										<label>Please write your comment:</label><br><br>
+										<textarea name="comment" id="comment" rows="3" cols="30" class="commentForm AlignTab"></textarea><br><br>
+										<b>Reviewer ID*:</b> <input type="text" name="reviewerId" id="reviewerId" size="5" required>
+										<input type="submit" value="Upload Comment" name="uComment" id="uComment" >
+									</div>
+								</td>
+							</tr>
+						</table>
+					</form>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$("#uComment").click(function(e){
+				e.preventDefault();
+				var r=$("#reviewerId").val();
+				var l=$("#lIds").val();
+				var p=$("#pIds").val();
+				var s=$("#selectedText").val();
+				var c=$("#comment").val();
+				var eO=$("#emotionOther").val();
+				var rO=$("#reasonOther").val();
+				var pr=$("input:radio[name=priority]").filter(":checked").val();
+				var su=$("#support:checked").val()!=undefined;
+				var i=$("#issue:checked").val()!=undefined;
+				var sug=$("#suggestion:checked").val()!=undefined;
+				var pos=$("#positive:checked").val()!=undefined;
+				var n=$("#neutral:checked").val()!=undefined;
+				var neg=$("#negative:checked").val()!=undefined;
+				var dataString='lIds='+l+'&pIds='+p+'&selectedText='+s+'&comment='+c+'&support='+su+'&issue='+i+'&suggestion='+sug+'&priority='+pr+'&positive='+pos+'&neutral='+n+'&negative='+neg+'&reviewerId='+r+'&emotionOther='+eO+'&reasonOther='+rO;
+				if(c!=""&&p!=""&&s!=""){
+					$('#selectedText').val('');
+					$.ajax({
+						
+						type:'POST',
+						data:dataString,
+						url:'./submitComment.php',
+						success:function(data){
+							alert("Thank you for your comment");
+						}
+					})
+				}else{
+					alert("Please select some text to associate to your comment and click `make a comment` when it appears");
+				};
+			});
+
+			function getSelected() {
+				if (window.getSelection) {
+					return window.getSelection();
+				}
+				else if (document.getSelection) {
+					return document.getSelection();
+				}
+				else {
+					var selection = document.selection && document.selection.createRange();
+					if (selection.text) {
+						return selection.text;
+					}
+					return false;
+				}
+				return false;
+			}
+
+			var xmlhttp1 = new XMLHttpRequest();
+			xmlhttp1.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+					document.getElementById('pil').innerHTML = this.responseText;
+				}
+			};
+			xmlhttp1.open('GET', 'loadPIL.php?p=3', false);
+			xmlhttp1.send();
+
+			var xmlhttp2 = new XMLHttpRequest();
+			xmlhttp2.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+					document.getElementById('eqip').innerHTML = this.responseText;
+				}
+			};
+			xmlhttp2.open('GET', 'loadEqipQS.php?p=3', false);
+			xmlhttp2.send();
+
+			$(document).ready(function() {
+				var selectionImage;
+				var getAllBetween = function (firstEl,lastEl) {
+					var firstElement = $(firstEl); // First Element
+					var lastElement = $(lastEl); // Last Element
+					var collection = new Array(); // Collection of Elements
+					collection.push(firstElement.attr('id')); // Add First Element to Collection
+					$(firstEl).nextAll().each(function(){ // Traverse all siblings
+						var siblingID  = $(this).attr('id'); // Get Sibling ID
+						if (siblingID != $(lastElement).attr('id')) { // If Sib is not LastElement
+							collection.push($(this).attr('id')); // Add Sibling to Collection
+						} else { // Else, if Sib is LastElement
+							collection.push(lastElement.attr('id')); // Add Last Element to Collection
+							return false; // Break Loop
+						}
+					});         
+					return collection; // Return Collection
+				}
+				$('.paragraph').mouseup(function(e) {
+					var selection = getSelected();				
+
+					if (!selectionImage) {
+						selectionImage = $('<button>').attr({
+							type: 'button',
+							title: 'Comment on the seleceted text',
+							id: 'quote-place'
+
+						}).html("Make a Comment").css({
+							"color": "red",
+							"position": "absolute"
+						}).hide();
+
+						$(document.body).append(selectionImage);
+						//$(selectionImage).insertBefore($(this));
+
+					}else{
+						selectionImage.remove();
+						if (selection!="") {
+							selectionImage = $('<button>').attr({
+								type: 'button',
+								title: 'Comment on the seleceted text',
+								id: 'quote-place'
+
+							}).html("Make a Comment").css({
+								"color": "red",
+								"position": "absolute"
+							}).hide();
+
+							$(document.body).append(selectionImage);
+							//$(selectionImage).insertBefore($(this));
+
+						}else{
+							selectionImage.remove();
+						}
+					}
+					$("#quote-place").click(function quote() {
+						$("#formCont").show();
+						$("#commentDisplay").hide();
+						if (window.getSelection) { // non-IE
+							userSelection = window.getSelection();
+							rangeObject = userSelection.getRangeAt(0);
+							if (rangeObject.startContainer == rangeObject.endContainer) {
+								document.cform.pIds.value =rangeObject.startContainer.parentNode.id;
+							} else {
+								document.cform.pIds.value =getAllBetween(
+									rangeObject.startContainer.parentNode,
+									rangeObject.endContainer.parentNode);
+							}
+						} else if (document.selection) { // IE lesser
+							userSelection = document.selection.createRange();
+							var ids = new Array();
+
+							if (userSelection.htmlText.toLowerCase().indexOf('span') >= 0) {
+								$(userSelection.htmlText).filter('span').each(function(index, span) {
+									ids.push(span.id);
+								});
+								document.cform.pIds.value =ids;
+							} else {
+								document.cform.pIds.value = userSelection.parentElement().id;
+							}
+						}
+						var txt = '';
+						if (window.getSelection) {
+							txt = window.getSelection();
+						}
+						else if (document.getSelection) {
+							txt = document.getSelection();
+						}
+						else if (document.selection) {
+							txt = document.selection.createRange().text;
+						}
+						else {
+							return;
+						}
+						document.cform.selectedText.value = txt;
+
+					}).mousedown(function() {
+
+						if (selectionImage) {
+							selectionImage.fadeOut();
+						}
+					});
+
+					selectionImage.css({
+						top: e.pageY - 30,
+						//offsets
+						left: e.pageX - 13, //offsets
+					}).fadeIn();
+				});			
+			});
+		</script>
+	</body>
+</html>

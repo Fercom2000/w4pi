@@ -1,0 +1,135 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./css/author.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<style>
+		.mainWindowA {    
+			width: 60%;}
+		.commentWindowA {    
+			width: 40%;}
+	</style>
+</head>
+<body>
+<div class="logo">
+</div>
+	<nav class="menu">
+		<ul class="menuLi">
+			<li class="menuLi "><a href="index.html">Summary</a></li>
+			<li class="menuLi active"><a href="jargon.html">Jargon Words</a></li>
+			<li class="menuLi "><a href="feedback.html">Public Feedback</a></li>
+			<li class="menuLi "><a href="content.html">Content Assessment</a></li>
+			<li class="contact"><span>Created by Fernando Santos, <a class="emailMenu" href="mailto:fs1g15@soton.ac.uk&subject=W2Pi Contact">fss1g15@soton.ac.uk</a>&nbsp;2018.</li>
+		</ul>
+	</nav>
+<div class="content">
+	<div class="mainWindowSug" id="clozeSugestions">
+	<h3>We identified some sentences as being to hard to understand in your document, we have selected a few of them to be reviewed by our PPI group via the Cloze procedure. For this, we took some of the words in the sentences and asked the reviewers to complete them. Words with less than 75% of correct answers are marked in <span class='yellow'>Yellow</span>, and in <span class="red">Red</span> if less than 50% of the reviewers could identify the correct answer. To see the sentences proposed by the reviewers click on one of the original phrases.</h3>
+	<div class="pil" id="pil">
+	</div>
+	<div class="sDispClzW" id="sugestionDisplay">
+		<h1>The public reviewers gave the following suggestions for that sentence</h1>
+	</div>
+	</div>	
+	<div class="tableWindowA">
+		<div class="tableDisplay" id="tableDisplay">
+			<h1>Your PIL Cloze score is </h1>
+		</div>
+	</div>	
+</div>
+<div class="footer">
+	<span>Created by Fernando Santos, <a class="emailPI" href="mailto:fs1g15@soton.ac.uk&subject=W2Pi Contact">fss1g15@soton.ac.uk</a>&nbsp;2018. Proudly created with the sponsorship of <a href="https://www.conacyt.gob.mx/" target="_blank" data-content="https://www.conacyt.gob.mx/" data-type="external" rel="nofollow">CONACYT&nbsp;</a> and <a href="https://www.southampton.ac.uk/" target="_blank" data-content="https://www.southampton.ac.uk/" data-type="external" rel="nofollow">The University of Southampton&nbsp;</a><span style="display:none;">&nbsp;</span></span>
+</div>
+
+<script>
+	function getSelected() {
+		if (window.getSelection) {
+			return window.getSelection();
+		}
+		else if (document.getSelection) {
+			return document.getSelection();
+		}
+		else {
+			var selection = document.selection && document.selection.createRange();
+			if (selection.text) {
+				return selection.text;
+			}
+			return false;
+		}
+		return false;
+	}
+	var xmlhttp1 = new XMLHttpRequest();
+			xmlhttp1.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+					document.getElementById('pil').innerHTML = this.responseText;
+				}
+			};
+			xmlhttp1.open('GET', 'showClozeSentences.php?p=1', false);
+			xmlhttp1.send();
+	var xmlhttp = new XMLHttpRequest();
+			xmlhttp.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+					document.getElementById('tableDisplay').innerHTML = this.responseText;
+				}
+			};
+			xmlhttp.open('GET', 'showClozeTable.php?p=1', false);
+			xmlhttp.send();
+
+	function myFunction() {
+		var x = document.getElementById("myDIV");
+		if (x.style.display === "none") {
+			x.style.display = "block";
+		} else {
+			x.style.display = "none";
+		}
+	} 
+
+
+	$(document).ready(function() {
+		
+      var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById('sugestionDisplay').innerHTML = this.responseText;
+            }
+        };
+        xmlhttp.open('GET', 'showClozeSugestions.php?p=1', true);
+        xmlhttp.send();
+		
+		$('.cf1').click(function(){
+			$('.cfs2').fadeOut();
+			$('.cfs3').fadeOut();
+			$('.cfs4').fadeOut();
+			$('.cfs1').fadeIn();
+			/*$(this).parent().parent().addClass('active'); //Allows for CSS hover and different styles for link clicks.
+			$(this).parent().parent().siblings().removeClass('active'); //Allows for CSS hover and different styles for link clicks.
+			$i=$(this).parent().parent().attr("value");
+			$pIdAs= $i.split(",");
+			for(j=0;j<$pIdAs.length;j++){
+				$elem=document.getElementById($pIdAs[j]);
+				$($elem).fadeIn();
+			}*/
+		});
+		$('.cf2').click(function(){
+			$('.cfs1').fadeOut();
+			$('.cfs2').fadeIn();
+			$('.cfs3').fadeOut();
+			$('.cfs4').fadeOut();
+		});
+		$('.cf3').click(function(){
+			$('.cfs1').fadeOut();
+			$('.cfs2').fadeOut();
+			$('.cfs3').fadeIn();
+			$('.cfs4').fadeOut();
+		});
+		$('.cf4').click(function(){
+			$('.cfs1').fadeOut();
+			$('.cfs2').fadeOut();
+			$('.cfs3').fadeOut();
+			$('.cfs4').fadeIn();
+		});
+			
+	});
+</script>
+</body>
+</html>

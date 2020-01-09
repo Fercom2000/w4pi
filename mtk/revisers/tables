@@ -1,0 +1,12 @@
+<?php
+create table mtkClozeWords (idClozeW INT not null auto_increment,idReviser varchar(20),idLeaflet varchar(20),idSentence varchar(20),clozeField1 varchar(500),clozeField2 varchar(500),clozeField3 varchar(500),clozeField4 varchar(500),clozeField5 varchar(500),clozeField6 varchar(500),clozeField7 varchar(500),clozeField8 varchar(500),clozeField9 varchar(500),clozeField10 varchar(500),dateT timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,flag varchar(10) default '0',primary key (idClozeW));
+
+create table mtkReviser (idReviser INT not null auto_increment,rEmail varchar(450),rInterest varchar(3),rHealth varchar(3),rAge varchar(3),rEducation varchar(3),dateT timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,flag varchar(10) default '0', primary key (idReviser));
+
+create table mtkCrwRevision (idCrwRevision INT not null auto_increment,idReviser varchar(20),idLeaflet varchar(20),idSentence varchar(20),crwRevision varchar(8000),dateT timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,flag varchar(10) default '0',primary key (idCrwRevision));
+
+create table mtkkwdQs (idKwdQs INT not null auto_increment,idReviser varchar(20),idLeaflet varchar(20),kwdQs1 varchar(200),kwdQs2 varchar(200),kwdQs3 varchar(200),kwdQs4 varchar(200),dateT timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,flag varchar(10) default '0',primary key (idKwdQs));
+
+alter table mtkClozeWords add column idGroup int DEFAULT 1;
+alter table mtkkwdQs add column idGroup int DEFAULT 1;
+?>

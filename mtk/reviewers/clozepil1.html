@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./css/reviewer.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<title>Web Platform for Public Involvement in Leaflet Design</title>
+</head>
+<body>
+	<div class="logo"></div>
+	<nav class="Menu">
+		<ul class="menuL">
+			<li class="menuL "><span class="menuL"><a class="menuL" href="index.html">Home</a></span></li>
+			<li class="menuL active"><span class="menuL"><a class="menuL" name="revCPIL1.html">1st Leaflet</a></span></li>
+			<li class="contact"></li>
+		</ul>
+	</nav>
+	<div class="content">
+		<div class="pil70">
+		<form name=cform action="./cloze.php" method="post">
+			<section class="instructions unselectable fixed">
+				<h2>Instructions: Please fill the empty fields to complete the sentences. This task meassures the understandability of the text, and checks that the wording is clear.</h2>
+				<div class="container">
+				Reviewer ID*: <input type="text" name="reviewerId" required>
+				<input type="submit" value="Save Words & Continue to Next Task">	(Please use your Amazon Mechanical Turk Id)
+				</div>
+			</section>
+			<section class="main">
+				<div class="containerStyle">
+					<input type="text" name="lIds" readonly="readonly" rows="3" size="10" class="hidden" value="1"></input>
+					<div class="paragraphS" id="s1">
+						University Hospital, Southampton NHS, NHS Fundation Trust Participant Information Sheet: adults with capacity <input type="text" name="cf1" rows="1" size="10"></input> who regain capacity Pragmatic 
+						<input type="text" name="cf2" rows="1" size="10"></input> controlled trial evaluating a 
+						<input type="text" name="cf3" rows="1" size="10"></input> molecular Point-of-Care `test-and-treat` strategy 
+						<input type="text" name="cf4" rows="1" size="10"></input> influenza in adults hospitalised 
+						<input type="text" name="cf5" rows="1" size="10"></input> acute respiratory illness: FluPOC 
+						<input type="text" name="cf6" rows="1" size="10"></input> Investigator: Dr Tristan Clark 
+					</div>
+					<div class="paragraphS" id="s2">
+						If you have a swab 
+						<input type="text" name="cf7" rows="1" size="10"></input>  reveals that you have 
+						<input type="text" name="cf8" rows="1" size="10"></input>  virus, we may approach 
+						<input type="text" name="cf9" rows="1" size="10"></input>again to ask if 
+						<input type="text" name="cf10" rows="1" size="10"></input>  would give us permission 
+						<input type="text" name="cf11" rows="1" size="10"></input>  take further nasal swabs, 
+						<input type="text" name="cf12" rows="1" size="10"></input>  (if you are coughing 
+						<input type="text" name="cf13" rows="1" size="10"></input>  sputum) and another blood test (
+						<input type="text" name="cf14" rows="1" size="10"></input>  half a tablespoon full) 
+						<input type="text" name="cf15" rows="1" size="10"></input>  additional ethically approved research.
+					</div>
+					<div class="paragraphS" id="s3">
+						The symptoms and clinical 
+						<input type="text" name="cf16" rows="1" size="10"></input> that you display are 
+						<input type="text" name="cf17" rows="1" size="10"></input> with an `acute respiratory 
+						<input type="text" name="cf18" rows="1" size="10"></input>` and so we would 
+						<input type="text" name="cf19" rows="1" size="10"></input> to test you for 
+						<input type="text" name="cf20" rows="1" size="10"></input> wide variety of respiratory 
+						<input type="text" name="cf21" rows="1" size="10"></input> (including influenza), which might 
+						<input type="text" name="cf22" rows="1" size="10"></input> caused your illness, using 
+						<input type="text" name="cf23" rows="1" size="10"></input> rapid point-of-care test.
+					</div>
+					<div class="paragraphS" id="s4">
+						If you lose the 
+						<input type="text" name="cf24" rows="1" size="10"></input> to consent and the 
+						<input type="text" name="cf25" rows="1" size="10"></input> team wish to take 
+						<input type="text" name="cf26" rows="1" size="10"></input> more samples from you, 
+						<input type="text" name="cf27" rows="1" size="10"></input> we would have to 
+						<input type="text" name="cf28" rows="1" size="10"></input> written permission from someone 
+						<input type="text" name="cf29" rows="1" size="10"></input> to you, and you 
+						<input type="text" name="cf30" rows="1" size="10"></input> have to agree that 
+						<input type="text" name="cf31" rows="1" size="10"></input> could use them once 
+						<input type="text" name="cf32" rows="1" size="10"></input> recovered.
+					</div>
+				</div>
+			</section>
+		</form>
+		</div>
+		<div class="eqip70" id="eqip">
+		<aside class="side">
+			<div class="containerStyle">
+			<h3>What is this about?</h3>
+			<p>
+				We need to assess that the document is using the correct words, it is a common case that doctors and researchers employ technical terms and little known
+				words when initially develop a new document intended for the public. So, we employ the Cloze test to assess if the words they employ match with the
+				words you expect to see. Sometimes the understandability of the document can be greatly improved just by replacing some synonyms.
+			</p>
+			</div>
+		</aside>
+		</div>
+		<div class="commentWin10">
+		<footer class="footer">
+			<span>Proudly created with the sponsorship of <a href="https://www.conacyt.gob.mx/" target="_blank" data-content="https://www.conacyt.gob.mx/" data-type="external" rel="nofollow">CONACYT&nbsp;</a> and <a href="https://www.southampton.ac.uk/" target="_blank" data-content="https://www.southampton.ac.uk/" data-type="external" rel="nofollow">The University of Southampton&nbsp;</a><span style="display:none;">&nbsp;</span> by Fernando Santos, <a class="emailPI" href="mailto:fs1g15@soton.ac.uk&subject=W2Pi Contact">fss1g15@soton.ac.uk</a>&nbsp;2018.</span>
+		</footer>
+		</div>
+	</div>
+</body>
+</html>
+		

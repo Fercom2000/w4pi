@@ -1,0 +1,233 @@
+html, body, div, span, applet, iframe,
+header, nav, article, section, aside, footer,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td{
+	background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: center;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;   
+}
+html{
+	height: 100vh;
+	width: 100vw;
+}
+.logo{
+	height: 10vh;
+	max-height: 10vh;
+	background: url('../img/soton.png') no-repeat center;
+	background-size: contain;
+	margin: 0.5%;
+}
+.menu{
+	height: 5vh;
+}
+.content{
+	height: 80vh;
+}ul{
+    list-style-type: none;
+}
+ul.menuL {
+    overflow: hidden;
+    background-color: #000F26;
+	height:100%;
+	padding-left:2vw;
+	font-size:3vh;
+}
+li.contact {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding-right: 16px;
+    padding-left: 16px;
+    text-decoration: none;
+	height:100%;
+}
+span.menuL{
+	line-height: 200%;
+}
+.emailMenu {
+    color: #00c3ff;
+}
+li.menuL {
+    float: left;
+	height:100%;
+}
+a.menuL {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-right: 16px;
+    padding-left: 16px;
+    text-decoration: none;
+	height:100%;
+}
+a.menuL:hover {
+    background-color: #887CAF;
+}
+.active{
+	background: #887CAF;
+}
+.pil{
+	background: #1A2847;
+	height: 60vh;
+	width: 68vw;
+	overflow-y: auto;
+	position:fixed;
+	top:17.5vh;
+	left: .2vw;
+	padding: 10px;
+	box-sizing: border-box; 
+	font-size: 20px;
+    font-family: Arial,Helvetica,sans-serif;
+	margin-top: 0.5%;
+}
+.eqip{
+	background: #1A2847;
+	height: 60vh;
+	width: 31vw;
+	overflow-y: auto;
+	position:fixed;
+	top:17.5vh;
+	left: 68.4vw;
+	padding: 10px;
+	box-sizing: border-box; 
+	font-size: 20px;
+    font-family: Arial,Helvetica,sans-serif;
+	margin-top: 0.5%;
+}
+.commentWin{
+	background: #1A2847;
+	height: 20vh;
+	width: 99.6vw;
+	overflow-y: auto;
+	position:fixed;
+	bottom: 1vh;
+	left: .2vh;
+	padding: 10px;
+	box-sizing: border-box; 
+	font-size: 20px;
+    font-family: Arial,Helvetica,sans-serif;
+	margin-top: 0.5%;
+}
+.mainC70{
+	background: #1A2847;
+	height: 70vh;
+	width: 68vw;
+	overflow-y: auto;
+	position:fixed;
+	top:17.5vh;
+	left: 15vw;
+	padding: 10px;
+	box-sizing: border-box; 
+	font-size: 20px;
+    font-family: Arial,Helvetica,sans-serif;
+	margin-top: 0.5%;
+}
+.pil70{
+	background: #1A2847;
+	height: 70vh;
+	width: 68vw;
+	overflow-y: auto;
+	position:fixed;
+	top:17.5vh;
+	left: .2vw;
+	padding: 10px;
+	box-sizing: border-box; 
+	font-size: 20px;
+    font-family: Arial,Helvetica,sans-serif;
+	margin-top: 0.5%;
+}
+.eqip70{
+	background: #1A2847;
+	height: 70vh;
+	width: 31vw;
+	overflow-y: auto;
+	position:fixed;
+	top:17.5vh;
+	left: 68.4vw;
+	padding: 10px;
+	box-sizing: border-box; 
+	font-size: 20px;
+    font-family: Arial,Helvetica,sans-serif;
+	margin-top: 0.5%;
+}
+.commentWin10{
+	background: #1A2847;
+	height: 10vh;
+	width: 99.6vw;
+	overflow-y: auto;
+	position:fixed;
+	bottom: 1vh;
+	left: .2vh;
+	padding: 10px;
+	box-sizing: border-box; 
+	font-size: 20px;
+    font-family: Arial,Helvetica,sans-serif;
+	margin-top: 0.5%;
+}
+.comment{
+	width:32vw;
+	margin: .3vw;
+}
+.t{font-size: 2em;}
+.t2{font-size: 1.5em;}
+.s{font-size: 1.2em;font-weight:bold;color:green;}
+.t{font-weight:bold;}
+.t{font-weight:bold;}
+.r{text-align:right;}
+.c{text-align:center;}
+.floatR{float:right;}
+.floatL{float:left;}
+.inlineB{display:inline-block;}
+.AlignTab{margin-left:2vw;}
+.AlignTab2{margin-left:3vw;}
+.AlignTab3{margin-left:4vw;}
+.l{color:blue;text-decoration:underline;}
+.redF{color:red;}
+.hidden{display: none;}
+p{
+	color: #e3efff;
+}
+div{
+	color: #e3efff;
+}
+.paragraphS{
+	margin: 1vh;
+	margin-bottom: 2vh;
+	background-color: #485462;
+}
+.cRow{
+	width: 24vw;
+	vertical-align: top;
+}
+.cRowL{
+	width: 24vw;
+	vertical-align: top;
+}
+.cRowS{
+	width: 18vw;
+	vertical-align: top;
+}
+.cRow15{
+	width: 15vw;
+	vertical-align: top;
+}
+.workerId{
+	background: url('../img/WorkerId.png') no-repeat center;
+	background-size: contain;
+	height: 20vh;
+}
+.green{
+	color:green;
+}

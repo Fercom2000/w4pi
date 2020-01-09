@@ -1,0 +1,52 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./css/author.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<style>
+		.mainWindowA {    
+			width: 60%;}
+		.commentWindowA {    
+			width: 40%;}
+	</style>
+</head>
+<body>
+<div class="logo">
+</div>
+	<nav class="menu">
+		<ul class="menuLi">
+				<li class="menuLi "><a href="index.html">Home</a></li>
+				<li class="menuLi active"><a href="join.html">Start the task</a></li>
+				<li class="contact"><span>Created by Fernando Santos, <a class="emailMenu" href="mailto:fs1g15@soton.ac.uk&subject=W2Pi Contact">fss1g15@soton.ac.uk</a>&nbsp;2018.</li>
+			</ul>
+	</nav>
+<div class="content">
+	<div class="mainCenter" id="leafletText">
+		<h3>Please fill-in the missing words. Leaving too many blank fields or choosing random words may reduce your chances of being approved.</h3>
+		<div class="formJoin joinForm containerStyle" id="formJoin">
+			<form name=cform action="./clozeRevisers.php" method="post">
+				Reviewer ID*: <input type="text" name="idReviser" required>
+				<input type="submit" value="Continue to the Next Sentnce">	(Please use the Amazon Mechanical Turk Id you registered at the start)<br><br>
+				<p class="yellowT">Sentence 2 of 4:</p>
+				<input type="text" name="flag" id="flag" size="15" class="hidden" value="0"></input><input type="text" name="gIds" id="gIds" size="15" class="hidden" value="1"></input>
+				<input type="text" name="lIds" readonly="readonly" rows="3" size="10" class="hidden" value="1"></input>
+				<input type="text" name="sIds" readonly="readonly" rows="3" size="10" class="hidden" value="2"></input>
+				<section class="instructions unselectable fixed">					
+					<div class="paragraphS" id="s1">
+						After <input type="text" name="cf" rows="1" size="10"></input> have read the
+						 information <input type="text" name="cf" rows="1" size="10"></input> and have had
+						 your <input type="text" name="cf" rows="1" size="10"></input> answered, you will
+						 be <input type="text" name="cf" rows="1" size="10"></input> whether you are
+						 happy <input type="text" name="cf" rows="1" size="10"></input> take part in
+						 the study.
+				</section>
+			</form>
+		</div>
+	</div>
+</div>	
+</div>
+<div class="footer">
+	<span>Created by Fernando Santos, <a class="emailPI" href="mailto:fs1g15@soton.ac.uk&subject=W2Pi Contact">fss1g15@soton.ac.uk</a>&nbsp;2018. Proudly created with the sponsorship of <a href="https://www.conacyt.gob.mx/" target="_blank" data-content="https://www.conacyt.gob.mx/" data-type="external" rel="nofollow">CONACYT&nbsp;</a> and <a href="https://www.southampton.ac.uk/" target="_blank" data-content="https://www.southampton.ac.uk/" data-type="external" rel="nofollow">The University of Southampton&nbsp;</a><span style="display:none;">&nbsp;</span></span>
+</div>
+</body>
+</html>

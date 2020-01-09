@@ -1,0 +1,55 @@
+					<form name=cform action="" method="post">
+						<textarea name="lIds" id="lIds" readonly="readonly" rows="3" cols="30" class="hidden" value="3">3</textarea>
+						<textarea name="pIds" id="pIds" readonly="readonly" rows="3" cols="30" class="hidden"></textarea>
+						<table>
+								<tr>
+									<td colspan="3">
+										
+										<b>Reviewer ID*:</b> <input type="text" name="reviewerId" id="reviewerId" required>
+										<input type="submit" value="Upload Comment" name="uComment" id="uComment">
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class="comment">
+											<label>Please select some text to associate to your comment and click "make a comment" when it appears:</label><br>
+											<textarea name="selectedText" id="selectedText" rows="3" cols="30" class="readonly commentForm AlignTab" required oninvalid="this.setCustomValidity('Please select some text to associate to your comment and click `make a comment` when it appears')"></textarea>
+										</div>	
+									</td>
+									<td>
+										<div class="comment">
+											<label>Please write your comment:</label><br>
+											<textarea name="comment" id="comment" rows="3" cols="30" class="commentForm AlignTab"></textarea>
+										</div>
+									</td>
+									<td>
+										<div class="comment">
+											<label>What is the reason of your comment?</label><br>
+											<label><input type="checkbox" id="support" class="reason AlignTab commentForm" name="support" value="0">Congratulate / Give support</label>
+											<label><input type="checkbox" id="issue" class="reason AlignTab commentForm" name="issue">Inform about an issue</label><br>
+											<label><input type="checkbox" id="suggestion" class="reason AlignTab commentForm" name="suggestion">Give suggestion / reflection</label>
+											<label class="AlignTab">Other reasons:<textarea name="reasonOther" id="reasonOther" rows="1" cols="30" class="AlignTab commentForm"></textarea></label>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class="comment">
+											<label>How important do you consider this?</label><br>
+											<label><input type='radio' class='reason AlignTab commentForm' id='priority1' name='priority' value="1">It must be resolved</label>
+											<label><input type='radio' class='reason AlignTab commentForm' id='priority2' name='priority'value="2">It would be nice to solve</label><br>
+											<label><input type='radio' class='reason AlignTab commentForm' id='priority3' name='priority'value="3">It is not an issue</label>
+										</div><br><br>
+									</td>
+									<td>
+										<div class="comment">
+											<label>is your comment positive or negative?</label><br>
+											<label><input type="checkbox" class="emotion AlignTab commentForm" name="positive" id="positive" value="positive">Positive</label>
+											<label><input type="checkbox" class="emotion AlignTab commentForm" name="neutral" id="neutral" value="neutral">Neutral</label>
+											<label><input type="checkbox" class="emotion AlignTab commentForm" name="negative" id="negative" value="negative">Negative</label>
+											<label><div class="AlignTab">Other emotions: <textarea name="emotionOther" id="emotionOther" rows="1" cols="30" class="commentForm"></textarea></div></label>
+										</div><br><br>
+									</td>
+								</tr>
+							</table>
+					</form>

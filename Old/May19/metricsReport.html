@@ -1,0 +1,241 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="comment.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="libraries/bootstrap/bootstrap.min.js"></script>
+	<script src="libraries/d3/d3.min.js"></script>
+</head>
+<body>
+<div class="logo">
+</div>
+<div class="menu">
+	<ul class="menuL">
+	  <li class="menuL"><a href="index.html">Home</a></li>
+	  <li class="menuL"><a href="authors.html">Leaflet Authors</a></li>
+	  <li class="menuL"><a href="demo.html">Demos</a></li>
+	</ul>
+</div>
+<div class="content">
+	<div class="instructions unselectable" id="p0">
+		<h2>This section present a resume of the quantitative readability scores for the reviewed leaflet.</h2>
+	</div>
+	<div class="mainWindowA" id="leafletText">
+		<h2>Based on the quantitative readability scores for this leaflet, the following actions are recommended:</h2>
+		<table class="readabilitySug">
+			<tbody class="readabilitySug">
+				<tr class="readabilitySug">
+					<th class="readabilitySug">Id</th>
+					<th class="readabilitySug">PIL Section</th>
+					<th class="readabilitySug">Suggestion</th>
+					<th class="readabilitySug">Base</th>
+				</tr>
+				<tr class="readabilitySug">
+					<td class="readabilitySug">1</td>
+					<td class="readabilitySug">We want to compare elderly patients who are having rehabilitation in a day hospital, to those having rehabilitation in their own homes, and see if there are any advantages of one over the other in terms of cost or patient and carer preference. </td>
+					<td class="readabilitySug">You should consider rewriting to improve readability</td>
+					<td class="readabilitySug">Flesch Reading Ease Index</td>
+				</tr>
+				<tr class="readabilitySug">
+					<td class="readabilitySug">2</td>
+					<td class="readabilitySug">The study is a National Randomised Controlled Trial, which means it is taking place nationally, and patients who agree to be involved are randomly assigned to receive either home based or day hospital rehabilitation.</td>
+					<td class="readabilitySug">You should consider rewriting to improve readability</td>
+					<td class="readabilitySug">Flesch Reading Ease Index</td>
+				</tr>
+				<tr class="readabilitySug">
+					<td class="readabilitySug">3</td>
+					<td class="readabilitySug">If you choose not to be involved in this study, you will receive rehabilitation, and if you have a preference to being treated at home, or in a day hospital, this can be taken into account.</td>
+					<td class="readabilitySug">You should consider rewriting to improve readability</td>
+					<td class="readabilitySug">Flesch Reading Ease Index</td>
+				</tr>
+				<tr class="readabilitySug">
+					<td class="readabilitySug">4</td>
+					<td class="readabilitySug">From previous studies, we don't expect there to be any difference in effectiveness between these two, so you will not be disadvantaged by being assigned to either one.</td>
+					<td class="readabilitySug">You should consider rewriting to improve readability</td>
+					<td class="readabilitySug">Flesch Reading Ease Index</td>
+				</tr>
+				<tr class="readabilitySug">
+					<td class="readabilitySug">5</td>
+					<td class="readabilitySug">We don't think that being part of this study will cause you any problems, and the researchers will do their best to make sure we interrupt your day to day life as little as possible.</td>
+					<td class="readabilitySug">You should consider rewriting to improve readability</td>
+					<td class="readabilitySug">Flesch Reading Ease Index</td>
+				</tr>
+				<tr class="readabilitySug">
+					<td class="readabilitySug">6</td>
+					<td class="readabilitySug">Any information about you which we take away from the hospital/scheme will have your name and address removed from it so that you can not be recognised.</td>
+					<td class="readabilitySug">You should consider rewriting to improve readability</td>
+					<td class="readabilitySug">Flesch Reading Ease Index</td>
+				</tr>
+				<tr class="readabilitySug">
+					<td class="readabilitySug">7</td>
+					<td class="readabilitySug">Taking part in the study does not require you to make any changes to your lifestyle, and the researcher will arrange to see you at a time convenient to you.</td>
+					<td class="readabilitySug">You should consider rewriting to improve readability</td>
+					<td class="readabilitySug">Flesch Reading Ease Index</td>
+				</tr>
+				<tr class="readabilitySug">
+					<td class="readabilitySug">8</td>
+					<td class="readabilitySug">However, if you are unhappy about the way you have been approached or treated during the study, there will be complaint procedures that you can follow.</td>
+					<td class="readabilitySug">You should consider rewriting to improve readability</td>
+					<td class="readabilitySug">Flesch Reading Ease Index</td>
+				</tr>
+				<tr class="readabilitySug">
+					<td class="readabilitySug">9</td>
+					<td class="readabilitySug">When the research stops we will analyse the information we have gathered, and report our findings, which may have implications for funding and resources in the future.</td>
+					<td class="readabilitySug">You should consider rewriting to improve readability</td>
+					<td class="readabilitySug">Flesch Reading Ease Index</td>
+				</tr>
+				<tr class="readabilitySug">
+					<td class="readabilitySug">10</td>
+					<td class="readabilitySug">Should you have a complaint about anything during the course of the research, please phone SISA on: 0214 271 5294 Will my taking part in the study be kept confidential?</td>
+					<td class="readabilitySug">You should consider rewriting to improve readability</td>
+					<td class="readabilitySug">Flesch Reading Ease Index</td>
+				</tr>
+				<tr class="readabilitySug">
+					<td class="readabilitySug">11</td>
+					<td class="readabilitySug">We don't think there are any risks or disadvantages for being involved in this study, but you have the option to withdraw at any time, for any reason.</td>
+					<td class="readabilitySug">You should consider rewriting to improve readability</td>
+					<td class="readabilitySug">Flesch Reading Ease Index</td>
+				</tr>
+				<tr class="readabilitySug">
+					<td class="readabilitySug">12</td>
+					<td class="readabilitySug">This interview will involve questions about how you feel in yourself and what you can and can't do, and also questions about your use of health services.</td>
+					<td class="readabilitySug">You should consider rewriting to improve readability</td>
+					<td class="readabilitySug">Flesch Reading Ease Index</td>
+				</tr>
+				<tr class="readabilitySug">
+					<td class="readabilitySug">13</td>
+					<td class="readabilitySug">If you agree to take part in this study, you will be randomly assigned to receive either day hospital or home based rehabilitation.</td>
+					<td class="readabilitySug">You should consider rewriting to improve readability</td>
+					<td class="readabilitySug">Flesch Reading Ease Index</td>
+				</tr>
+				<tr class="readabilitySug">
+					<td class="readabilitySug">14</td>
+					<td class="readabilitySug">[Researcher Name] Project Manager XXX Institute for XXX on XXX Community Sciences Centre XXX General Hospital XXX XX XXX Phone: 0214 271 5294</td>
+					<td class="readabilitySug">You should consider rewriting to improve readability</td>
+					<td class="readabilitySug">Flesch Reading Ease Index</td>
+				</tr>
+				<tr class="readabilitySug">
+					<td class="readabilitySug">15</td>
+					<td class="readabilitySug">We hope that the results of this study will be published in journals and conferences, and help to decide on future policy development.</td>
+					<td class="readabilitySug">You should consider rewriting to improve readability</td>
+					<td class="readabilitySug">Flesch Reading Ease Index</td>
+				</tr>
+				<tr class="readabilitySug">
+					<td class="readabilitySug">16</td>
+					<td class="readabilitySug">The researcher will always make an effort to fit around your commitments and your health and welfare will always be the top priority.</td>
+					<td class="readabilitySug">You should consider rewriting to improve readability</td>
+					<td class="readabilitySug">Flesch Reading Ease Index</td>
+				</tr>
+				<tr class="readabilitySug">
+					<td class="readabilitySug">17</td>
+					<td class="readabilitySug">Then your rehabilitation will start and the service you receive will be unaffected by your taking part in this study.</td>
+					<td class="readabilitySug">You should consider rewriting to improve readability</td>
+					<td class="readabilitySug">Flesch Reading Ease Index</td>
+				</tr>
+				<tr class="readabilitySug">
+					<td class="readabilitySug">18</td>
+					<td class="readabilitySug">The research is funded by the Department of Health, and organised by researchers at the Universities of XXX, XXX and XXX.</td>
+					<td class="readabilitySug">You should consider rewriting to improve readability</td>
+					<td class="readabilitySug">Flesch Reading Ease Index</td>
+				</tr>
+			</tbody>
+		</table>
+			
+	</div>
+	<div class="commentWindowA">
+		<div class="commentDisplay" id="commentDisplay">
+			<h2>Readability metrics for this leaflet</h2>
+			<table class="redabilityMet" id="redabilityMet">
+				<tbody class="redabilityMet">
+					<tr class="redabilityMet">
+						<th class="redabilityMet" colspan="2">General Metrics</th>
+					</tr>
+					<tr class="redabilityMet">
+						<td class="redabilityMet">Number of characters (without spaces)</td>
+						<td class="redabilityMet">4,502.00</td>
+					</tr>
+					<tr class="redabilityMet">
+						<td class="redabilityMet">Number of words</td>
+						<td class="redabilityMet">992.00</td>
+					</tr>
+					<tr class="redabilityMet">
+						<td class="redabilityMet">Number of sentences</td>
+						<td class="redabilityMet">57.00</td>
+					</tr>
+					<tr class="redabilityMet">
+						<td class="redabilityMet">Average number of characters per word</td>
+						<td class="redabilityMet">4.54</td>
+					</tr>
+					<tr class="redabilityMet">
+						<td class="redabilityMet">Average number of syllables per word</td>
+						<td class="redabilityMet">1.58</td>
+					</tr>
+					<tr class="redabilityMet">
+						<td class="redabilityMet">Average number of words per sentence</td>
+						<td class="redabilityMet">17.40</td>
+					</tr>
+				</tbody>
+				<tbody class="redabilityMet">
+					<tr class="redabilityMet">
+						<th class="redabilityMet" colspan="2">Number of years of formal education (US) needed for easily understanding this text</th>
+					</tr>
+					<tr class="redabilityMet">
+						<td class="redabilityMet">Gunning Fog index</td>
+						<td class="redabilityMet">11.03</td>
+					</tr>
+				</tbody>
+				<tbody class="redabilityMet">
+					<tr class="redabilityMet">
+						<th class="redabilityMet" colspan="2">Approximate grade level (US) needed to comprehend the text</th>
+					</tr>
+					<tr class="redabilityMet">
+						<td class="redabilityMet">Coleman Liau index</td>
+						<td class="redabilityMet">9.21</td>
+					</tr>
+					<tr class="redabilityMet">
+						<td class="redabilityMet">Flesch Kincaid Grade level</td>
+						<td class="redabilityMet">9.86</td>
+					</tr>
+					<tr class="redabilityMet">
+						<td class="redabilityMet">ARI (Automated Readability Index)</td>
+						<td class="redabilityMet">8.65</td>
+					</tr>
+					<tr class="redabilityMet">
+						<td class="redabilityMet">SMOG</td>
+						<td class="redabilityMet">11.21</td>
+					</tr>
+				</tbody>
+				<tbody class="redabilityMet">
+					<tr class="redabilityMet">
+						<th class="redabilityMet" colspan="2">Other scores</th>
+					</tr>
+					<tr class="redabilityMet">
+						<td class="redabilityMet">Flesch Reading Ease</td>
+						<td class="redabilityMet">55.36</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>	
+</div>
+<div class="foot">
+	<span>Created by Fernando Santos, <a class="emailPI" href="mailto:fs1g15@soton.ac.uk&subject=W2Pi Contact">fss1g15@soton.ac.uk</a>&nbsp;2018. Proudly created with the sponsorship of <a href="https://www.conacyt.gob.mx/" target="_blank" data-content="https://www.conacyt.gob.mx/" data-type="external" rel="nofollow">CONACYT&nbsp;</a> and <a href="https://www.southampton.ac.uk/" target="_blank" data-content="https://www.southampton.ac.uk/" data-type="external" rel="nofollow">The University of Southampton&nbsp;</a><span style="display:none;">&nbsp;</span></span>
+</div>
+
+<script>/*
+	d3.json("sentimentData.php", function(error,data){
+		data.forEach(function (d){
+			var labels=[];
+			var comments=[];
+			for (var i=0; i<d.length;i++){
+				labels.push(d.label);
+				comments.push(d.comment);
+				var t=comments[i]+labels[i];
+				d3.select("tComments")
+					.append("tbody").html("<tr><td>"+comments[i]+"</td><td>"+labels[i]+"</td></tr>");
+			}
+		})
+	});*/
+		
+</script>
+</body>
+</html>

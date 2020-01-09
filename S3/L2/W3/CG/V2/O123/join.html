@@ -1,0 +1,105 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./css/author.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<style>
+		.mainWindowA {    
+			width: 60%;}
+		.commentWindowA {    
+			width: 40%;}
+	</style>
+</head>
+<body>
+<div class="logo">
+</div>
+	<nav class="menu">
+		<ul class="menuLi">
+				<li class="menuLi "><a href="index.html">Home</a></li>
+				<li class="menuLi active"><a href="join.html">Start the task</a></li>
+				<li class="contact"><span>Created by Fernando Santos, <a class="emailMenu" href="mailto:fs1g15@soton.ac.uk&subject=W2Pi Contact">fss1g15@soton.ac.uk</a>&nbsp;2018.</li>
+			</ul>
+	</nav>
+<div class="content">
+	<div class="mainCenter" id="leafletText">
+		<h3>Please answer the following questions so we can add you as a reviser</h3>
+		<div class="formJoin joinForm containerStyle" id="formJoin">
+			<form name=cform action="./register.php" method="post">
+				<input type="text" name="flag" id="flag" size="15" class="hidden" value="2123"></input>
+				<input type="text" name="gIds" id="gIds" size="15" class="hidden" value="23"></input>
+				<table>
+					<tr>
+						<td class="cRow">
+							<div class="comment cRow">
+								<label>What is your Amazon Mechanical Turk Id? (you can find your worker Id in the HIT page as seen in the picture below)</label><br>	
+								<div style="width: 47%;float: left;">
+								<input type="text" name="reviewerEmail" id="reviewerId" size="15" required></div>
+								<div style="width: 47%;float: left;">
+								<div class="workerId"></div></div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="cRow">
+							<div class="comment cRow">
+								<label>Have you participated (or are interested in participating) in a clinical trial?</label><br>
+								<label><input type='radio' class='reason AlignTab' id='interest1' name='interest' value="1">Interested</label><br>
+								<label><input type='radio' class='reason AlignTab' id='interest2' name='interest'value="2">Indifferent / Not Sure</label><br>
+								<label><input type='radio' class='reason AlignTab' id='interest3' name='interest'value="3">Not Interested</label><br>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="cRow">
+							<div class="comment cRowS">
+								<label>How healthy do you consider yourself:</label><br>
+								<label><input type='radio' class='reason AlignTab' id='health1' name='health' value="1">Very healthy</label><br>
+								<label><input type='radio' class='reason AlignTab' id='health2' name='health'value="2">Healthy</label><br>
+								<label><input type='radio' class='reason AlignTab' id='health3' name='health'value="3">Unhealthy</label><br>
+								<label><input type='radio' class='reason AlignTab' id='health4' name='health'value="4">Very Unhealthy</label><br>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="cRow">
+							<div class="comment cRowS">
+								<label>What is your age group:</label><br>
+								<label><input type='radio' class='reason AlignTab' id='age1' name='age' value="1">18-24</label><br>
+								<label><input type='radio' class='reason AlignTab' id='age2' name='age'value="2">25-31</label><br>
+								<label><input type='radio' class='reason AlignTab' id='age3' name='age'value="3">32-38</label><br>
+								<label><input type='radio' class='reason AlignTab' id='age4' name='age'value="4">39-45</label><br>
+								<label><input type='radio' class='reason AlignTab' id='age5' name='age'value="5">46-52</label><br>
+								<label><input type='radio' class='reason AlignTab' id='age6' name='age'value="6">53-59</label><br>
+								<label><input type='radio' class='reason AlignTab' id='age7' name='age'value="7">60-65</label><br>
+								<label><input type='radio' class='reason AlignTab' id='age8' name='age'value="8">66+</label><br>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="cRow">
+							<div class="comment cRowS">
+								<label>What is your current education level:</label><br>
+								<label><input type='radio' class='reason AlignTab' id='education1' name='education' value="1">GCSE / O-Levels</label><br>
+								<label><input type='radio' class='reason AlignTab' id='education2' name='education'value="2">A-Levels</label><br>
+								<label><input type='radio' class='reason AlignTab' id='education3' name='education'value="3">Undergrad</label><br>
+								<label><input type='radio' class='reason AlignTab' id='education4' name='education'value="4">Grad</label><br>
+								<label><input type='radio' class='reason AlignTab' id='education5' name='education'value="4">PosGrad</label><br>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="cRow" colspan="3">
+						</td>
+					</tr>
+				</table>
+				<input type="submit" value="Register">	
+			</form>
+		</div>
+	</div>
+</div>	
+</div>
+<div class="footer">
+	<span>Created by Fernando Santos, <a class="emailPI" href="mailto:fs1g15@soton.ac.uk&subject=W2Pi Contact">fss1g15@soton.ac.uk</a>&nbsp;2018. Proudly created with the sponsorship of <a href="https://www.conacyt.gob.mx/" target="_blank" data-content="https://www.conacyt.gob.mx/" data-type="external" rel="nofollow">CONACYT&nbsp;</a> and <a href="https://www.southampton.ac.uk/" target="_blank" data-content="https://www.southampton.ac.uk/" data-type="external" rel="nofollow">The University of Southampton&nbsp;</a><span style="display:none;">&nbsp;</span></span>
+</div>
+</body>
+</html>

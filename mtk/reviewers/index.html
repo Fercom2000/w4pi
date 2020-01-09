@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="./css/reviewer.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<title>Web Platform for Public Involvement in Leaflet Design</title>
+	</head>
+	<body>
+		<div class="logo"></div>
+		<nav class="Menu">
+			<ul class="menuL">
+				<li class="menuL active"><span class="menuL"><a class="menuL" href="index.html">Home</a></span></li>
+				<li class="menuL"><span class="menuL"><a class="menuL" href="clozepil1.html">Review the Leaflet</a></span></li>
+				<li class="contact"></li>
+			</ul>
+		</nav>
+		<div class="content">
+			<div class="pil70" id="pil">
+				<h1 class="mainCenterT"></h1>
+
+				<h2 class="mainCenterT">What is W4Pi?</h2>
+
+				<p>W4Pi is a Computer Assisted Reviewer Platform for Public Involvement that I'm currently developing as part of my PhD. I am a highly committed PhD researcher focused on giving support to clinical trialist who want to develop good sources of information for patients in the UK.  I am collaborating with Prof Jeremy Wyatt from the Wessex Institute and Prof Thanassis Tiropanis from the University of Southampton WAIS group to develop a Web model to classify, rank and follow the effects of comments of Patient and Public Involvement (PPI) groups on the quality (readability and understandability) of real documents intended to inform patients. We want to ascertain the capacity of the documents to inform essential aspects of your trial and to give authors access to the knowledge base we have acquired from our previous research as an accessible Web application.</p><br>
+				<h2 class="mainCenterT">How can I participate?</h2>
+				<p>You can participate either as a reviewer or as an author. If you wish <b class="green">to participate as a reviewer please register  using the form on the rigth section and proceed to review the leaflet.</b> On the other hand, if you are an author of clinical documents intended to inform patients please contact the principal researcher by summiting an email titled "author for W4PI" to fss1g15@soton.ac.uk</p>
+			</div>
+			<div class="eqip70" id="eqip">
+				<div class="formCont commentForm containerStyle" id="formCont">
+					<form name=cform action="./register.php" method="post">
+						<table>
+							<tr>
+								<td class="cRow">
+									<div class="comment cRow">
+										<label>What is your Amazon Mechanical Turk Id? (you can find your worker Id in the HIT page as seen in the picture below)</label><br>
+										<input type="text" name="reviewerEmail" id="reviewerId" size="15" required>
+										<div class="workerId"></div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="cRow">
+									<div class="comment cRow">
+										<label>have you participated (or are interested) in a clinical trial?</label><br>
+										<label><input type='radio' class='reason AlignTab commentForm' id='interest1' name='interest' value="1">Interested</label><br>
+										<label><input type='radio' class='reason AlignTab commentForm' id='interest2' name='interest'value="2">Indifferent / Not Sure</label><br>
+										<label><input type='radio' class='reason AlignTab commentForm' id='interest3' name='interest'value="3">Not Interested</label><br>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="cRow">
+									<div class="comment cRowS">
+										<label>How healthy do you consider yourself:</label><br>
+										<label><input type='radio' class='reason AlignTab commentForm' id='health1' name='health' value="1">Very healthy</label><br>
+										<label><input type='radio' class='reason AlignTab commentForm' id='health2' name='health'value="2">Healthy</label><br>
+										<label><input type='radio' class='reason AlignTab commentForm' id='health3' name='health'value="3">Unhealthy</label><br>
+										<label><input type='radio' class='reason AlignTab commentForm' id='health4' name='health'value="4">Very Unhealthy</label><br>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="cRow">
+									<div class="comment cRowS">
+										<label>What is your age group:</label><br>
+										<label><input type='radio' class='reason AlignTab commentForm' id='age1' name='age' value="1">18-24</label><br>
+										<label><input type='radio' class='reason AlignTab commentForm' id='age2' name='age'value="2">25-31</label><br>
+										<label><input type='radio' class='reason AlignTab commentForm' id='age3' name='age'value="3">32-38</label><br>
+										<label><input type='radio' class='reason AlignTab commentForm' id='age4' name='age'value="4">39-45</label><br>
+										<label><input type='radio' class='reason AlignTab commentForm' id='age5' name='age'value="5">46-52</label><br>
+										<label><input type='radio' class='reason AlignTab commentForm' id='age6' name='age'value="6">53-59</label><br>
+										<label><input type='radio' class='reason AlignTab commentForm' id='age7' name='age'value="7">60-65</label><br>
+										<label><input type='radio' class='reason AlignTab commentForm' id='age8' name='age'value="8">66+</label><br>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="cRow">
+									<div class="comment cRowS">
+										<label>What is your current education level:</label><br>
+										<label><input type='radio' class='reason AlignTab commentForm' id='education1' name='education' value="1">GCSE / O-Levels</label><br>
+										<label><input type='radio' class='reason AlignTab commentForm' id='education2' name='education'value="2">A-Levels</label><br>
+										<label><input type='radio' class='reason AlignTab commentForm' id='education3' name='education'value="3">Undergrad</label><br>
+										<label><input type='radio' class='reason AlignTab commentForm' id='education4' name='education'value="4">Grad</label><br>
+										<label><input type='radio' class='reason AlignTab commentForm' id='education5' name='education'value="4">PosGrad</label><br>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="cRow" colspan="3">
+								</td>
+							</tr>
+						</table>
+					<input type="submit" value="Register">	
+					</form>
+			</div>
+			</div>
+		</div>
+		<div class="commentWin10">
+		<footer class="footer">
+			<span>Proudly created with the sponsorship of <a href="https://www.conacyt.gob.mx/" target="_blank" data-content="https://www.conacyt.gob.mx/" data-type="external" rel="nofollow">CONACYT&nbsp;</a> and <a href="https://www.southampton.ac.uk/" target="_blank" data-content="https://www.southampton.ac.uk/" data-type="external" rel="nofollow">The University of Southampton&nbsp;</a><span style="display:none;">&nbsp;</span> by Fernando Santos, <a class="emailPI" href="mailto:fs1g15@soton.ac.uk&subject=W2Pi Contact">fss1g15@soton.ac.uk</a>&nbsp;2018.</span>
+		</footer>
+		</div>
+	</body>
+</html>

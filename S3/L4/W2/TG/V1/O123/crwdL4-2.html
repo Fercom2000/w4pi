@@ -1,0 +1,131 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./css/author.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<style>
+		.mainWindowA {    
+			width: 60%;}
+		.commentWindowA {    
+			width: 40%;}
+	</style>
+</head>
+<body>
+<div class="logo">
+</div>
+	<nav class="menu">
+		<ul class="menuLi">
+				<li class="menuLi "><a href="index.html">Home</a></li>
+				<li class="menuLi active"><a href="join.html">Start the task</a></li>
+				<li class="contact"><span>Created by Fernando Santos, <a class="emailMenu" href="mailto:fs1g15@soton.ac.uk&subject=W2Pi Contact">fss1g15@soton.ac.uk</a>&nbsp;2018.</li>
+			</ul>
+	</nav>
+<div class="content">
+	<div class="mainWindowA" id="leafletText">
+		<h3>Please reword the following sentences so that it becomes easier to understand. We will compare your answer to the original sentence meaning and complexity. Sentences that are too close to the original complexity or which do not cover the same topics may be discarded.</h3>
+		<div class="formJoin joinForm containerStyle pil" id="formJoin">
+			<form name=cform action="./crwRev.php" method="post">
+				Reviewer ID*: <input type="text" name="idReviser" required>
+				<input type="submit" value="Continue to the Next Sentnce">	(Please use the Amazon Mechanical Turk Id you registered at the start)<br><br>
+				<p class="yellowT">Sentence 2 of 3:</p>
+				<input type="text" name="flag" id="flag" size="15" class="hidden" value="123"></input>
+				<input type="text" name="gIds" id="gIds" size="15" class="hidden" value="142"></input>
+				<input type="text" name="lIds" readonly="readonly" rows="3" size="10" class="hidden" value="4"></input>
+				<input type="text" name="sIds" readonly="readonly" rows="3" size="10" class="hidden" value="472"></input>
+				<input type="text" name="next" readonly="readonly" rows="3" size="10" class="hidden" value="3"></input>
+				<section class="instructions unselectable fixed">	
+					<p class="yellowT">Original Sentence</p>				
+					<div class="paragraphS" id="s1">
+						 Your hospital will keep identifiable information about you from this study for 10 years after the study has finished.
+
+					</div>
+					<textarea name="crwRevision" cols="75" rows="5"></textarea>
+				</section>
+			</form>
+		</div>
+	</div>
+	<div class="commentWindowA">
+		<h3>The following list contains some tips on how to revise medical literature to make it more understandable for the general public.<br><br></h3>
+		<dl class="pil">
+			<dt><b>1.- Avoid wordiness:</b></dt>
+			<dd class="alignTab">
+				<div style="display: table;clear: both;width:100%;">
+					<div style="width: 45%;padding: 10px;float: left;overflow: auto;">"At this point in time"</div>
+					<div style="width: 5%;float: left;padding:10px;"> -> </div>
+					<div style="width: 45%;padding: 10px;float: right;"> "now"</div>
+				</div>
+			</dd>
+			<dt><b>2.- Delete redundant words:</b></dt>
+			<dd class="alignTab">
+				<div style="display: table;clear: both;width:100%;">
+					<div style="width: 45%;padding: 10px;float: left;overflow: auto;">"The reason why"</div>
+					<div style="width: 5%;float: left;padding:10px;"> -> </div>
+					<div style="width: 45%;padding: 10px;float: right;"> "The reason"</div>
+				</div>
+			</dd>
+			<dt><b>3.- Look out for "Did not" and "Do not":</b></dt>
+			<dd class="alignTab">
+				<div style="display: table;clear: both;width:100%;">
+					<div style="width: 45%;padding: 10px;float: left;overflow: auto;">"Did not succeed"</div>
+					<div style="width: 5%;float: left;padding:10px;"> -> </div>
+					<div style="width: 45%;padding: 10px;float: right;"> "failed"</div>
+				</div>
+			</dd>
+			<dt><b>4.- Avoid "It", "There is" and "There are" as sentence openers:</b></dt>
+			<dd class="alignTab">
+				<div style="display: table;clear: both;width:100%;">
+					<div style="width: 45%;padding: 10px;float: left;overflow: auto;">"There are serious consequences in failing to take your medication"</div>
+					<div style="width: 5%;float: left;padding:10px;"> -> </div>
+					<div style="width: 45%;padding: 10px;float: right;"> "Failing to take your medication can have serious consequences"</div>
+				</div>
+			</dd>
+			<dt><b>5.- Delete needless "To be":</b></dt>
+			<dd class="alignTab">
+				<div style="display: table;clear: both;width:100%;">
+					<div style="width: 45%;padding: 10px;float: left;overflow: auto;">"The results were shown <s>to be</s> conclusive"</div>
+					<div style="width: 5%;float: left;padding:10px;"> -> </div>
+					<div style="width: 45%;padding: 10px;float: right;"> "The results were conclusive"</div>
+				</div>
+			</dd>
+			<dt><b>6.- Reword weak and wordy verbs:</b></dt>
+			<dd class="alignTab">
+				<div style="display: table;clear: both;width:100%;">
+					<div style="width: 45%;padding: 10px;float: left;overflow: auto;">"is in conflict with"</div>
+					<div style="width: 5%;float: left;padding:10px;"> -> </div>
+					<div style="width: 45%;padding: 10px;float: right;"> "conflicts"</div>
+				</div>
+			</dd>
+			<dt><b>7.- Delete needless "That" and "Which":</b></dt>
+			<dd class="alignTab">
+				<div style="display: table;clear: both;width:100%;">
+					<div style="width: 45%;padding: 10px;float: left;overflow: auto;">"This is a problem that is easy to correct"</div>
+					<div style="width: 5%;float: left;padding:10px;"> -> </div>
+					<div style="width: 45%;padding: 10px;float: right;"> "This problem is easy to correct"</div>
+				</div>
+			</dd>
+			<dt><b>8.- Don't use a noun when a verb can be used:</b></dt>
+			<dd class="alignTab">
+				<div style="display: table;clear: both;width:100%;">
+					<div style="width: 45%;padding: 10px;float: left;overflow: auto;">"Give consideration to taking part in this study"</div>
+					<div style="width: 5%;float: left;padding:10px;"> -> </div>
+					<div style="width: 45%;padding: 10px;float: right;"> "Consider participating in this study"</div>
+				</div>
+			</dd>
+			<dt><b>9.- Avoid repetition:</b></dt>
+			<dd class="alignTab">
+				<div style="display: table;clear: both;width:100%;">
+					<div style="width: 45%;padding: 10px;float: left;overflow: auto;">
+						"In trauma victims, breathing is restored by <s>artificial respiration</s>. Techniques of <s>artificial respiration</s> include mouth-to-mouth <s>respiration</s> and mouth to nose <s>respiration</s>"</div>
+					<div style="width: 5%;float: left;padding:10px;"> -> </div>
+					<div style="width: 45%;padding: 10px;float: right;">"In trauma victims, breathing is restored by artificial respiration, either mouth-to-mouth or mouth-to-nose."</div>
+				</div>
+			</dd>
+		</dl>
+	</div>
+</div>	
+</div>
+<div class="footer">
+	<span>Created by Fernando Santos, <a class="emailPI" href="mailto:fs1g15@soton.ac.uk&subject=W2Pi Contact">fss1g15@soton.ac.uk</a>&nbsp;2018. Proudly created with the sponsorship of <a href="https://www.conacyt.gob.mx/" target="_blank" data-content="https://www.conacyt.gob.mx/" data-type="external" rel="nofollow">CONACYT&nbsp;</a> and <a href="https://www.southampton.ac.uk/" target="_blank" data-content="https://www.southampton.ac.uk/" data-type="external" rel="nofollow">The University of Southampton&nbsp;</a><span style="display:none;">&nbsp;</span></span>
+</div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./css/author.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<style>
+		.mainWindowA {    
+			width: 60%;}
+		.commentWindowA {    
+			width: 40%;}
+	</style>
+</head>
+<body>
+<div class="logo">
+</div>
+	<nav class="menu">
+		<ul class="menuLi">
+				<li class="menuLi "><a href="index.html">Home</a></li>
+				<li class="menuLi active"><a href="join.html">Start the task</a></li>
+				<li class="contact"><span>Created by Fernando Santos, <a class="emailMenu" href="mailto:fs1g15@soton.ac.uk&subject=W2Pi Contact">fss1g15@soton.ac.uk</a>&nbsp;2018.</li>
+			</ul>
+	</nav>
+<div class="content">
+	<div class="mainCenter" id="leafletText">
+		<h3>Now, we will give you the 3 original sentences that you just completed and ask you to reword them so they can be easier to understand. You can see a brief example below:</h3>
+		<div>
+			<form name=cform action="./crwRev.php" method="post">
+			Reviewer ID*: <input type="text" name="idReviser" required>
+			<input type="submit" value="Continue">	(Please use the Amazon Mechanical Turk Id you registered at the start)<br><br>
+			<input type="text" name="flag" id="flag" size="15" class="hidden" value="3123"></input>
+			<input type="text" name="gIds" id="gIds" size="15" class="hidden" value="23"></input>
+			<input type="text" name="lIds" readonly="readonly" rows="3" size="10" class="hidden" value="2"></input>
+			<input type="text" name="sIds" readonly="readonly" rows="3" size="10" class="hidden" value="0"></input>
+			<input type="text" name="next" readonly="readonly" rows="3" size="10" class="hidden" value="1"></input>
+			</form>
+		</div>
+		<div class="formJoin joinForm containerStyle" id="formJoin">
+			<p class="yellowT">Original sentence, which has been determined to be too hard to understand</p>
+			<p class="alignTab">In trauma victims, breathing is restored by artificial respiration. Techniques of artificial respiration include mouth-to-mouth respiration and mouth-to-nose respiration.</p>
+			<p class="yellowT">Examples of a possible rewording you may give</p>
+			<p class="alignTab">In trauma victims, breathing is restored by artificial respiration, either mouth-to-mouth or mouth-to-nose.</p><br>
+		</div>
+	</div>
+</div>	
+</div>
+<div class="footer">
+	<span>Created by Fernando Santos, <a class="emailPI" href="mailto:fs1g15@soton.ac.uk&subject=W2Pi Contact">fss1g15@soton.ac.uk</a>&nbsp;2018. Proudly created with the sponsorship of <a href="https://www.conacyt.gob.mx/" target="_blank" data-content="https://www.conacyt.gob.mx/" data-type="external" rel="nofollow">CONACYT&nbsp;</a> and <a href="https://www.southampton.ac.uk/" target="_blank" data-content="https://www.southampton.ac.uk/" data-type="external" rel="nofollow">The University of Southampton&nbsp;</a><span style="display:none;">&nbsp;</span></span>
+</div>
+</body>
+</html>

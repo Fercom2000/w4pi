@@ -1,0 +1,14 @@
+UPDATE LOW_PRIORITY IGNORE mtkCrwRevision SET idGroup='42' WHERE idSentence='455' AND idGroup='43';
+UPDATE LOW_PRIORITY IGNORE mtkCrwRevision SET idGroup='42' WHERE idSentence='472' AND idGroup='43';
+UPDATE LOW_PRIORITY IGNORE mtkCrwRevision SET idGroup='42' WHERE idSentence='418' AND idGroup='43';
+
+UPDATE LOW_PRIORITY IGNORE mtkReviser SET idGroup='42' WHERE idReviser='244' AND idGroup='43';
+UPDATE LOW_PRIORITY IGNORE mtkReviser SET idGroup='42' WHERE idReviser='247' AND idGroup='43';
+UPDATE LOW_PRIORITY IGNORE mtkReviser SET idGroup='42' WHERE idReviser='271' AND idGroup='43';
+
+
+UPDATE LOW_PRIORITY IGNORE mtkReviser SET idGroup='42' WHERE rEmail IN ('A1I8EWT2DMNAKU','A1LT7RCP5NZQXG','AZJJM4MLJN12F','A1ZSZ9LDHAYECQ','A2CB5XA034TM3P','A1YA8AX0KPGMNI') AND idGroup='43';
+
+UPDATE LOW_PRIORITY IGNORE mtkClozeWords SET idGroup='42' WHERE idSentence='455' AND idGroup='43';
+UPDATE LOW_PRIORITY IGNORE mtkClozeWords SET idGroup='42' WHERE idSentence='472' AND idGroup='43';
+UPDATE LOW_PRIORITY IGNORE mtkClozeWords SET idGroup='42' WHERE idSentence='418' AND idGroup='43';

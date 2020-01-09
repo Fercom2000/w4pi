@@ -1,0 +1,92 @@
+(\w+)(\W+)(\w+)(\W+)(\w+)(\W+)(\w+)(\W+)(\w+)
+$1$2$3$4$5$6$7$8$9\n
+
+283-3: When you agree to take part in a research study, the information about your health and care may be provided to researchers running other research studies in this organisation and in other organisations.
+						When <input type="text" name="cf1" rows="1" size="10"></input> agree to take
+						 part <input type="text" name="cf2" rows="1" size="10"></input> a research study
+						, the <input type="text" name="cf3" rows="1" size="10"></input> about your health
+						 and <input type="text" name="cf4" rows="1" size="10"></input> may be provided
+						 to <input type="text" name="cf5" rows="1" size="10"></input> running other research
+						 studies <input type="text" name="cf6" rows="1" size="10"></input> this organisation and in other organisations.
+
+						 When you <input type="text" name="cf1" rows="1" size="10"></input> to take
+						 part in <input type="text" name="cf2" rows="1" size="10"></input> research study
+						, the information <input type="text" name="cf3" rows="1" size="10"></input> your health
+						 and care <input type="text" name="cf4" rows="1" size="10"></input> be provided
+						 to researchers <input type="text" name="cf5" rows="1" size="10"></input> other research
+						 studies in <input type="text" name="cf6" rows="1" size="10"></input> organisation and
+						 in other organisations.
+
+						 When you agree <input type="text" name="cf1" rows="1" size="10"></input> take
+						part in a <input type="text" name="cf2" rows="1" size="10"></input> study
+						, the information about <input type="text" name="cf3" rows="1" size="10"></input> health
+						and care may <input type="text" name="cf4" rows="1" size="10"></input> provided
+						to researchers running <input type="text" name="cf5" rows="1" size="10"></input> research
+						studies in this <input type="text" name="cf6" rows="1" size="10"></input> and
+						in other organisations.
+
+						When you agree to <input type="text" name="cf1" rows="1" size="10"></input>
+						 part in a research <input type="text" name="cf2" rows="1" size="10"></input>
+						, the information about your <input type="text" name="cf3" rows="1" size="10"></input>
+						 and care may be <input type="text" name="cf4" rows="1" size="10"></input>
+						 to researchers running other <input type="text" name="cf5" rows="1" size="10"></input>
+						 studies in this organisation <input type="text" name="cf6" rows="1" size="10"></input>
+						 in other organisations.
+						 	
+234-2:You can complete the questionnaire during your hospital visit and hand it to the nurse or researcher or you can take it home to complete and return in the pre-paid envelope.
+						You <input type="text" name="cf1" rows="1" size="10"></input> complete the questionnaire
+						 during <input type="text" name="cf2" rows="1" size="10"></input> hospital visit and
+						 hand <input type="text" name="cf3" rows="1" size="10"></input> to the nurse
+						 or <input type="text" name="cf4" rows="1" size="10"></input> or you can
+						 take <input type="text" name="cf5" rows="1" size="10"></input> home to complete
+						 and <input type="text" name="cf6" rows="1" size="10"></input> in the pre-paid envelope.
+
+						You can <input type="text" name="cf1" rows="1" size="10"></input> the questionnaire
+						 during your <input type="text" name="cf2" rows="1" size="10"></input> visit and
+						 hand it <input type="text" name="cf3" rows="1" size="10"></input> the nurse
+						 or researcher <input type="text" name="cf4" rows="1" size="10"></input> you can
+						 take it <input type="text" name="cf5" rows="1" size="10"></input> to complete
+						 and return <input type="text" name="cf6" rows="1" size="10"></input> the pre-paid envelope.
+
+						 You can complete <input type="text" name="cf1" rows="1" size="10"></input> questionnaire
+						 during your hospital <input type="text" name="cf2" rows="1" size="10"></input> and
+						 hand it to <input type="text" name="cf3" rows="1" size="10"></input> nurse
+						 or researcher or <input type="text" name="cf4" rows="1" size="10"></input> can
+						 take it home <input type="text" name="cf5" rows="1" size="10"></input> complete
+						 and return in <input type="text" name="cf6" rows="1" size="10"></input> pre-paid envelope.
+
+						You can complete the <input type="text" name="cf1" rows="1" size="10"></input>
+						 during your hospital visit <input type="text" name="cf2" rows="1" size="10"></input>
+						 hand it to the <input type="text" name="cf3" rows="1" size="10"></input>
+						 or researcher or you <input type="text" name="cf4" rows="1" size="10"></input>
+						 take it home to <input type="text" name="cf5" rows="1" size="10"></input>
+						 and return in the <input type="text" name="cf6" rows="1" size="10"></input> envelope.
+
+2100-1:If you have agreed for us to collect routine NHS data this will be tracked using your NHS and hospital numbers, but your name will be removed.
+						If <input type="text" name="cf1" rows="1" size="10"></input> have agreed for
+						 us <input type="text" name="cf2" rows="1" size="10"></input> collect routine NHS
+						 data <input type="text" name="cf3" rows="1" size="10"></input> will be tracked
+						 using <input type="text" name="cf4" rows="1" size="10"></input> NHS and hospital
+						 numbers, <input type="text" name="cf5" rows="1" size="10"></input> your name will
+						 be removed.
+
+						 If you <input type="text" name="cf1" rows="1" size="10"></input> agreed for
+						 us to <input type="text" name="cf2" rows="1" size="10"></input> routine NHS
+						 data this <input type="text" name="cf3" rows="1" size="10"></input> be tracked
+						 using your <input type="text" name="cf4" rows="1" size="10"></input> and hospital
+						 numbers, but <input type="text" name="cf5" rows="1" size="10"></input> name will
+						 be removed.
+
+						If you have <input type="text" name="cf1" rows="1" size="10"></input> for
+						 us to collect <input type="text" name="cf2" rows="1" size="10"></input> NHS
+						 data this will <input type="text" name="cf3" rows="1" size="10"></input> tracked
+						 using your NHS <input type="text" name="cf4" rows="1" size="10"></input> hospital
+						 numbers, but your <input type="text" name="cf5" rows="1" size="10"></input> will
+						 be removed.
+
+						If you have agreed <input type="text" name="cf1" rows="1" size="10"></input>
+						 us to collect routine <input type="text" name="cf2" rows="1" size="10"></input>
+						 data this will be <input type="text" name="cf3" rows="1" size="10"></input>
+						 using your NHS and <input type="text" name="cf4" rows="1" size="10"></input>
+						 numbers, but your name <input type="text" name="cf5" rows="1" size="10"></input>
+						 be removed.

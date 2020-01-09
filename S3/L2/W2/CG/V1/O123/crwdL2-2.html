@@ -1,0 +1,51 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./css/author.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<style>
+		.mainWindowA {    
+			width: 60%;}
+		.commentWindowA {    
+			width: 40%;}
+	</style>
+</head>
+<body>
+<div class="logo">
+</div>
+	<nav class="menu">
+		<ul class="menuLi">
+				<li class="menuLi "><a href="index.html">Home</a></li>
+				<li class="menuLi active"><a href="join.html">Start the task</a></li>
+				<li class="contact"><span>Created by Fernando Santos, <a class="emailMenu" href="mailto:fs1g15@soton.ac.uk&subject=W2Pi Contact">fss1g15@soton.ac.uk</a>&nbsp;2018.</li>
+			</ul>
+	</nav>
+<div class="content">
+	<div class="mainCenter" id="leafletText">
+		<h3>Please reword the following sentences so that it becomes easier to understand. We will compare your answer to the original sentence meaning and complexity. Sentences that are too close to the original complexity or which do not cover the same topics may be discarded.</h3>
+		<div class="formJoin joinForm containerStyle" id="formJoin">
+			<form name=cform action="./crwRev.php" method="post">
+				Reviewer ID*: <input type="text" name="idReviser" required>
+				<input type="submit" value="Continue to the Next Sentnce">	(Please use the Amazon Mechanical Turk Id you registered at the start)<br><br>
+				<input type="text" name="flag" id="flag" size="15" class="hidden" value="123"></input>
+				<input type="text" name="gIds" id="gIds" size="15" class="hidden" value="22"></input>
+				<input type="text" name="lIds" readonly="readonly" rows="3" size="10" class="hidden" value="2"></input>
+				<input type="text" name="sIds" readonly="readonly" rows="3" size="10" class="hidden" value="2112"></input>
+				<input type="text" name="next" readonly="readonly" rows="3" size="10" class="hidden" value="3"></input>
+				<section class="instructions unselectable fixed">	
+					<p class="yellowT">Original Sentence</p>				
+					<div class="paragraphS" id="s1">
+						We will inform your GP that you are taking part in this study, and may contact your GP before mailing out the follow up questionnaire in case your details have changed or you have moved.
+					</div>
+					<textarea name="crwRevision" cols="75" rows="5"></textarea>
+				</section>
+			</form>
+		</div>
+	</div>
+</div>	
+</div>
+<div class="footer">
+	<span>Created by Fernando Santos, <a class="emailPI" href="mailto:fs1g15@soton.ac.uk&subject=W2Pi Contact">fss1g15@soton.ac.uk</a>&nbsp;2018. Proudly created with the sponsorship of <a href="https://www.conacyt.gob.mx/" target="_blank" data-content="https://www.conacyt.gob.mx/" data-type="external" rel="nofollow">CONACYT&nbsp;</a> and <a href="https://www.southampton.ac.uk/" target="_blank" data-content="https://www.southampton.ac.uk/" data-type="external" rel="nofollow">The University of Southampton&nbsp;</a><span style="display:none;">&nbsp;</span></span>
+</div>
+</body>
+</html>
