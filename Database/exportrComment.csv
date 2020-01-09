@@ -1,0 +1,217 @@
+idComment,0,idReviewer,1,idLeaflet,2,assocText,3,text,4,emotionVector,5,idParagraph,6,comment,7,reasonVector,8,otherReason,9,otherEmotion,10,priority,11
+1,1,pr1,pr1,1,1,randomised,randomised,,,010,010,p4,p4,"Don't Know what Randomised means","Don't Know what Randomised means",010,010,,,,,2,2
+2,2,pr1,pr1,1,1,randomised,randomised,,,100,100,p4,p4,"all is fine","all is fine",100,100,,,,,3,3
+3,3,lf1,lf1,1,1,"overleaf.
+Why have I been asked?
+The symptoms and clinical signs that you display ","overleaf.
+Why have I been asked?
+The symptoms and clinical signs that you display ",,,001,001,"p10,p11,p12","p10,p11,p12","Don't like you","Don't like you",010,010,,,,,1,1
+4,4,lf1,lf1,1,1,"overleaf.
+Why have I been asked?
+The symptoms and clinical signs that you display ","overleaf.
+Why have I been asked?
+The symptoms and clinical signs that you display ",,,100,100,"p10,p11,p12","p10,p11,p12","Nice name","Nice name",100,100,,,,,3,3
+5,5,lf1,lf1,1,1,"overleaf.
+Why have I been asked?
+The symptoms and clinical signs that you display ","overleaf.
+Why have I been asked?
+The symptoms and clinical signs that you display ",,,100,100,"p10,p11,p12","p10,p11,p12","Nice name","Nice name",100,100,,,,,3,3
+6,6,lf1,lf1,1,1,"overleaf.
+Why have I been asked?
+The symptoms and clinical signs that you display ","overleaf.
+Why have I been asked?
+The symptoms and clinical signs that you display ",,,100,100,"p10,p11,p12","p10,p11,p12","Nice name","Nice name",100,100,,,,,3,3
+7,7,fer,fer,1,1,capacity,capacity,,,010,010,p3,p3,"Capacity for what","Capacity for what",010,010,,,,,2,2
+8,8,fer,fer,1,1,capacity,capacity,,,100,100,p3,p3,great,great,001,001,,,,,3,3
+9,9,fer,fer,1,1,capacity,capacity,,,100,100,p3,p3,great,great,001,001,,,,,3,3
+10,10,fer,fer,1,1," influenza "," influenza ",,,100,100,p9,p9,influ,influ,001,001,,,,,3,3
+11,11,fer,fer,1,1,"point-of-care test","point-of-care test",,,010,010,p12,p12,"no idea what is this","no idea what is this",001,001,,,,,2,2
+12,12,sre35,sre35,1,1,"NHS ","NHS ",,,000,000,p2,p2,"2 x NHS","2 x NHS",000,000,,,,,und,und
+13,13,sre35,sre35,1,1,"finishing ","finishing ",,,000,000,p17,p17,finished,finished,000,000,,,,,und,und
+14,14,sre35,sre35,2,2,€™,€™,,,000,000,p29,p29,type,type,000,000,,,,,und,und
+15,15,sre35,sre35,2,2,€™,€™,,,000,000,p68,p68,typo,typo,000,000,,,,,und,und
+16,16,sre32,sre32,1,1,FluPOC,FluPOC,,,000,000,p4,p4,"cPIL1 try2","cPIL1 try2",000,000,,,,,1,1
+17,17,sre32,sre32,2,2,HORIZONS,HORIZONS,,,000,000,p2,p2,cPIL2,cPIL2,000,000,,,,,2,2
+18,18,sre32,sre32,3,3,Movember,Movember,,,000,000,p1,p1,cPIL3,cPIL3,000,000,,,,,3,3
+19,19,sre32,sre32,4,4,TrueNTH,TrueNTH,,,000,000,p2,p2,cPIL4,cPIL4,000,000,,,,,2,2
+20,20,sr37,sr37,3,3,"
+","
+",,,010,010,"p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p26,p27,p28,p29,p30,p31,p32,p33,p34,p35,p36,p37,p38,p39,p40","p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p26,p27,p28,p29,p30,p31,p32,p33,p34,p35,p36,p37,p38,p39,p40","I think it is important to expand on patient benefits, to clearly state if they will receive a compensation or not to reduce expectations.","I think it is important to expand on patient benefits, to clearly state if they will receive a compensation or not to reduce expectations.",010,010,,,,,2,2
+21,21,sr37,sr37,4,4,"but ","but ",,,100,100,p7,p7,"It is nice that they acknowledge that it might not be a good time for people to go through this study. It shows sensitivity,","It is nice that they acknowledge that it might not be a good time for people to go through this study. It shows sensitivity,",100,100,,,,,und,und
+22,22,sr37,sr37,4,4,"information ","information ",,,010,010,p28,p28,"It would be nice if they would give more emphasise on the importance and impact of people being part of this study. ","It would be nice if they would give more emphasise on the importance and impact of people being part of this study. ",001,001,,,,,und,und
+23,23,sr37,sr37,4,4,"
+","
+",,,100,100,"p32,p33,p34,p35,p36,p37,p38,p39,p40,p41,p42,p43,p44,p45,p46,p47,p48,p49,p50,p51,p52,p53,p54,p55,p56,p57,p58,p59,p60,p61,p62,p63,p64,p65,p66,p67,p68,p69,p70,p71,p72,p73,p74,p75,p76,p77,p78,p79,p80,p81,p82,p83,p84,p85,p86,p87,p88,p89,p90,p91,p92,p93,p94,p95,p96,p97,p98,p99,p100,p101,p102","p32,p33,p34,p35,p36,p37,p38,p39,p40,p41,p42,p43,p44,p45,p46,p47,p48,p49,p50,p51,p52,p53,p54,p55,p56,p57,p58,p59,p60,p61,p62,p63,p64,p65,p66,p67,p68,p69,p70,p71,p72,p73,p74,p75,p76,p77,p78,p79,p80,p81,p82,p83,p84,p85,p86,p87,p88,p89,p90,p91,p92,p93,p94,p95,p96,p97,p98,p99,p100,p101,p102","It's good that they clarity that participants don't have to disclose information they are not comfortable with sharing.","It's good that they clarity that participants don't have to disclose information they are not comfortable with sharing.",100,100,,,,,und,und
+24,24,sre310,sre310,1,1,"Pragmatic randomised controlled trial evaluating a routine molecular Point-of-Care `test-and-treat` strategy for influenza in adults hospitalised with acute respiratory illness: FluPOC
+","Pragmatic randomised controlled trial evaluating a routine molecular Point-of-Care `test-and-treat` strategy for influenza in adults hospitalised with acute respiratory illness: FluPOC
+",,,010,010,"p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p26,p27,p28,p29,p30,p31,p32,p33,p34,p35,p36,p37,p38,p39,p40,p41,p42,p43,p44","p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p26,p27,p28,p29,p30,p31,p32,p33,p34,p35,p36,p37,p38,p39,p40,p41,p42,p43,p44","Communication is not clear and the problem is not well explained and resolved","Communication is not clear and the problem is not well explained and resolved",000,000,"No clarity with the sentence","No clarity with the sentence",,,2,2
+25,25,sre312,sre312,1,1,FluPOC,FluPOC,,,010,010,p4,p4,"I suggest that specify what means FluPOC, because I don't know it.","I suggest that specify what means FluPOC, because I don't know it.",001,001,,,,,2,2
+26,26,sre312,sre312,1,1,flowchart,flowchart,,,010,010,p7,p7,"I don't know what means flowchart.","I don't know what means flowchart.",001,001,,,,,1,1
+27,27,sre312,sre312,1,1,COPD,COPD,,,010,010,p9,p9,"I don't know what means COPD.","I don't know what means COPD.",001,001,,,,,1,1
+28,28,sre312,sre312,1,1,swab,swab,,,010,010,p17,p17,"I don't know what means swab.","I don't know what means swab.",001,001,,,,,1,1
+29,29,sre312,sre312,1,1,sponsoring,sponsoring,,,010,010,p36,p36,"I don't know what means sponsoring.","I don't know what means sponsoring.",001,001,,,,,1,1
+30,30,sre312,sre312,1,1,"What are the risks?
+The risks of having a simple swab taken from your nose and throat in this study are minimal but it can be mildly uncomfortable for some people. The blood tests are not risky but may also be mildly uncomfortable and sometimes leave a bruise. Study activities are insured via the hospital and University of Southampton.","What are the risks?
+The risks of having a simple swab taken from your nose and throat in this study are minimal but it can be mildly uncomfortable for some people. The blood tests are not risky but may also be mildly uncomfortable and sometimes leave a bruise. Study activities are insured via the hospital and University of Southampton.",,,010,010,"p27,p28","p27,p28","Don't explain how to claim compensation.","Don't explain how to claim compensation.",001,001,,,,,1,1
+31,31,sre312,sre312,1,1,"What will happen to me if I take part?
+After you have finishing reading this, you will have the opportunity to discuss the study in more detail with a member of the research team. If you are happy to take part, then you will be asked to read and sign a consent form. A computer program will then assign you randomly to one of two groups (A and B). Group allocation is completely random: neither the research team nor anyone else can influence which group you are placed into. Both groups will have a swab taken from the nose and throat but only group A will have the swab tested immediately on the point-of-care test machine. We will also ask all patients to have a blood test taken (about a tablespoon full) although you have the right to decline this, should you wish.
+The swab (which is like a `cotton bud`) is briefly put up your nose and in the back of your throat. If you are able to cough up sputum then we will also ask for a sample of this too, to be tested at the same time.
+If you are in Group A your samples will be analysed for many different viruses using the rapid test which takes about 1 hour. You will then be informed of the results, as will the doctors and nurses looking after you. You still have the right to discuss the results with the research team and the clinical team looking after you. If you have a swab that reveals that you have a virus, we may approach you again to ask if you would give us permission to take further nasal swabs, sputum (if you are coughing up sputum) and another blood test (about half a tablespoon full) for additional ethically approved research. If your test shows you have influenza you will be offered anti-influenza treatment according to national guidelines.
+If you are in Group B you will be managed according to standard care. The clinical team looking after you may wish to test you for respiratory viruses and if they do, this will be using standard laboratory testing. We may approach you again to ask if you would give us permission to take further nasal swabs, sputum (if you are coughing up sputum) and another blood test (about half a tablespoon full) for additional ethically approved research.
+For both Groups A and B you have the right to decline all or any of these further research samples, should you wish, and this will not affect you being part of this study or the care you receive. If you lose the ability to consent and the research team wish to take any more samples from you, then we would have to get written permission from someone close to you, and you would have to agree that we could use them once you recovered.
+Once you have been discharged a researcher will look at your hospital case notes to determine if having the test performed, or not has affected your management during your hospital stay. This includes how quickly you were discharged, whether you were nursed in a side room and decisions relating to antibiotic or antiviral medication.","What will happen to me if I take part?
+After you have finishing reading this, you will have the opportunity to discuss the study in more detail with a member of the research team. If you are happy to take part, then you will be asked to read and sign a consent form. A computer program will then assign you randomly to one of two groups (A and B). Group allocation is completely random: neither the research team nor anyone else can influence which group you are placed into. Both groups will have a swab taken from the nose and throat but only group A will have the swab tested immediately on the point-of-care test machine. We will also ask all patients to have a blood test taken (about a tablespoon full) although you have the right to decline this, should you wish.
+The swab (which is like a `cotton bud`) is briefly put up your nose and in the back of your throat. If you are able to cough up sputum then we will also ask for a sample of this too, to be tested at the same time.
+If you are in Group A your samples will be analysed for many different viruses using the rapid test which takes about 1 hour. You will then be informed of the results, as will the doctors and nurses looking after you. You still have the right to discuss the results with the research team and the clinical team looking after you. If you have a swab that reveals that you have a virus, we may approach you again to ask if you would give us permission to take further nasal swabs, sputum (if you are coughing up sputum) and another blood test (about half a tablespoon full) for additional ethically approved research. If your test shows you have influenza you will be offered anti-influenza treatment according to national guidelines.
+If you are in Group B you will be managed according to standard care. The clinical team looking after you may wish to test you for respiratory viruses and if they do, this will be using standard laboratory testing. We may approach you again to ask if you would give us permission to take further nasal swabs, sputum (if you are coughing up sputum) and another blood test (about half a tablespoon full) for additional ethically approved research.
+For both Groups A and B you have the right to decline all or any of these further research samples, should you wish, and this will not affect you being part of this study or the care you receive. If you lose the ability to consent and the research team wish to take any more samples from you, then we would have to get written permission from someone close to you, and you would have to agree that we could use them once you recovered.
+Once you have been discharged a researcher will look at your hospital case notes to determine if having the test performed, or not has affected your management during your hospital stay. This includes how quickly you were discharged, whether you were nursed in a side room and decisions relating to antibiotic or antiviral medication.",,,010,010,"p16,p17,p18,p19,p20,p21,p22","p16,p17,p18,p19,p20,p21,p22","Don't explain what to do if I experience any complications and how to identify the symptoms.","Don't explain what to do if I experience any complications and how to identify the symptoms.",001,001,,,,,1,1
+32,32,sre312,sre312,1,1,"What will happen to me if I take part?","What will happen to me if I take part?",,,010,010,p16,p16,"Don't give the precautions that I must take.","Don't give the precautions that I must take.",001,001,,,,,1,1
+33,33,sre312,sre312,1,1,"What will happen to me if I take part?","What will happen to me if I take part?",,,010,010,p16,p16,"Don't there are the potencial changes to the quality of life.","Don't there are the potencial changes to the quality of life.",001,001,,,,,1,1
+34,34,sre313,sre313,1,1,C,C,,,001,001,p9,p9,"Would expected 'usually' or 'using' or 'employing' at the start of the sentence.","Would expected 'usually' or 'using' or 'employing' at the start of the sentence.",000,000,Wording,Wording,,,2,2
+35,35,sre313,sre313,1,1,", or not ",", or not ",,,001,001,p22,p22,"Missing/misplaced comma","Missing/misplaced comma",000,000,Punctuation,Punctuation,,,2,2
+36,36,sre313,sre313,2,2,Y,Y,,,001,001,p7,p7,"'You' should not be capitalised.","'You' should not be capitalised.",000,000,Grammar,Grammar,,,2,2
+37,37,sre313,sre313,2,2,nd,nd,,,001,001,p8,p8,"Unpleasant run-on sentence: would split on the 'and'.","Unpleasant run-on sentence: would split on the 'and'.",000,000,Grammar,Grammar,,,2,2
+38,38,sre313,sre313,2,2,â€™,â€™,,,001,001,p29,p29,"Encoding issue.","Encoding issue.",000,000,Encoding,Encoding,,,1,1
+39,39,sre313,sre313,2,2,â€™,â€™,,,001,001,p35,p35,"Encoding issue.","Encoding issue.",000,000,Encoding,Encoding,,,1,1
+40,40,sre313,sre313,2,2,"the information about your health and care","the information about your health and care",,,011,011,p56,p56,"Does this include identifying information?","Does this include identifying information?",000,000,Confusion,Confusion,,,2,2
+41,41,sre313,sre313,2,2,"[add local PI name here] Principal Investigator [add local PI contact details here]","[add local PI name here] Principal Investigator [add local PI contact details here]",,,001,001,p106,p106,"Missing information","Missing information",010,010,,,,,1,1
+42,42,sre313,sre313,3,3,Charit,Charit,,,001,001,p8,p8,"'Charity' ought not be capitalised (creates confusion with the charity's name)","'Charity' ought not be capitalised (creates confusion with the charity's name)",000,000,Grammar,Grammar,,,2,2
+43,43,sre313,sre313,3,3," experience of computing"," experience of computing",,,001,001,p15,p15,"'experiance of computing' sounds odd. 'experiance with computers' might be better.","'experiance of computing' sounds odd. 'experiance with computers' might be better.",001,001,Wording,Wording,,,2,2
+44,44,sre313,sre313,3,3,"send it us","send it us",,,001,001,p35,p35,"'send it to us' would be better.","'send it to us' would be better.",001,001,Grammar,Grammar,,,2,2
+45,45,sre313,sre313,3,3,"the telephone","the telephone",,,001,001,p35,p35,"'telephone' doesn't need an article.","'telephone' doesn't need an article.",001,001,Grammar,Grammar,,,2,2
+46,46,sre313,sre313,3,3,"Will my taking part in the study be kept confidential?","Will my taking part in the study be kept confidential?",,,001,001,p20,p20,"Should be a heading?","Should be a heading?",001,001,Formatting,Formatting,,,2,2
+47,47,sre317,sre317,2,2,"[Investigator Name]","[Investigator Name]",,,010,010,p3,p3,"The principal investigator name is missing and also other main contact info that should on a leaflet be stated not asked for ","The principal investigator name is missing and also other main contact info that should on a leaflet be stated not asked for ",001,001,,,,,2,2
+48,48,v,v,1,1,FluPOC,FluPOC,,,010,010,p4,p4,flupoc,flupoc,001,001,,,,,1,1
+49,49,v,v,2,2,HORIZONS,HORIZONS,,,000,000,p2,p2,v,v,000,000,,,,,1,1
+50,50,sre315,sre315,1,1,FluPOC,FluPOC,,,010,010,p4,p4,"I don't know what you mean with FluPOC.","I don't know what you mean with FluPOC.",001,001,,,,,1,1
+51,51,sre315,sre315,1,1,FluPOC,FluPOC,,,010,010,p4,p4,"I don't know what you mean with FluPOC.","I don't know what you mean with FluPOC.",001,001,,,,,1,1
+52,52,sre315,sre315,1,1,"NHS NHS","NHS NHS",,,010,010,p2,p2,"I don't know what you mean with NHS.","I don't know what you mean with NHS.",001,001,,,,,1,1
+53,53,sre315,sre315,1,1,flowchart,flowchart,,,010,010,p7,p7,"I don't know what is flowchart.","I don't know what is flowchart.",001,001,,,,,1,1
+54,54,sre315,sre315,1,1,briefly,briefly,,,010,010,p18,p18,"I don't know what is briefly.","I don't know what is briefly.",001,001,,,,,1,1
+55,55,sre315,sre315,1,1,sputum,sputum,,,010,010,p19,p19,"I don't know what is sputum.","I don't know what is sputum.",001,001,,,,,1,1
+56,56,sre315,sre315,1,1,GP,GP,,,010,010,p25,p25,"I don't know what you mean with GP.","I don't know what you mean with GP.",001,001,,,,,1,1
+57,57,sre315,sre315,2,2,"* You have been asked to take part in the study because you are awaiting treatment for either breast cancer, gynecological cancer or non-Hodgkin lymphoma.","* You have been asked to take part in the study because you are awaiting treatment for either breast cancer, gynecological cancer or non-Hodgkin lymphoma.",,,001,001,p19,p19,"I can't undertand the terms that use in that part.","I can't undertand the terms that use in that part.",001,001,,,,,1,1
+58,58,sre315,sre315,2,2,envelope.,envelope.,,,001,001,p22,p22,"I do not know what it means.","I do not know what it means.",001,001,,,,,1,1
+59,59,sre315,sre315,2,2," NHS"," NHS",,,001,001,p26,p26,"I don't know what you do mean with that.","I don't know what you do mean with that.",001,001,,,,,1,1
+60,60,sre315,sre315,2,2,Maggieâ€™s,Maggieâ€™s,,,001,001,p35,p35,"I don't know what you do mean with that.","I don't know what you do mean with that.",001,001,,,,,1,1
+61,61,sre317,sre317,1,1," Fundation"," Fundation",,,000,000,p2,p2,Foundation,Foundation,000,000,,,,,und,und
+62,62,sre38,sre38,2,2,You,You,,,001,001,p7,p7,"should be a lower case Y","should be a lower case Y",010,010,,,,,2,2
+63,63,sre38,sre38,3,3,"you decide for sure that you would like to take part,","you decide for sure that you would like to take part,",,,001,001,p6,p6,"'before you decide for sure that you would like to take part' is too leading and assuming","'before you decide for sure that you would like to take part' is too leading and assuming",011,011,,,,,1,1
+64,64,sre38,sre38,3,3,"Will my taking part in the study be kept confidential?","Will my taking part in the study be kept confidential?",,,010,010,p20,p20,"'will my taking part in the study be kept confidential' needs to stand as a proper question","'will my taking part in the study be kept confidential' needs to stand as a proper question",001,001,,,,,1,1
+65,65,sre319,sre319,1,1,finishing,finishing,,,010,010,p17,p17,"Q13: Maybe just add more detail on who to contact if anything goes wrong, as well as who to discuss queries with beforehand","Q13: Maybe just add more detail on who to contact if anything goes wrong, as well as who to discuss queries with beforehand",000,000,Q13,Q13,,,2,2
+66,66,sre319,sre319,1,1,"Who has approved this study","Who has approved this study",,,010,010,p37,p37,"Add ethics number","Add ethics number",001,001,,,,,1,1
+67,67,sre319,sre319,1,1,finishing,finishing,,,010,010,p17,p17,finished,finished,011,011,,,,,1,1
+68,68,,,2,2,peopleâ€™s,peopleâ€™s,,,000,000,p29,p29,people's,people's,000,000,,,,,und,und
+69,69,,,2,2,donâ€™t,donâ€™t,,,000,000,p68,p68,don't,don't,000,000,,,,,und,und
+70,70,,,3,3,"find distressing ","find distressing ",,,000,000,p19,p19,"may find it","may find it",000,000,,,,,und,und
+71,71,sre319,sre319,3,3,is,is,,,000,000,p30,p30,"&quot;what if&quot;","&quot;what if&quot;",000,000,,,,,und,und
+72,72,sre319,sre319,4,4,"and given ","and given ",,,000,000,p102,p102,"&quot;be given&quot;","&quot;be given&quot;",000,000,,,,,und,und
+73,73,sre315,sre315,3,3," NHS"," NHS",,,010,010,p8,p8,"I don't know what is NHS","I don't know what is NHS",001,001,,,,,2,2
+74,74,sre315,sre315,3,3,"What are the possible disadvantages or risks of taking part?
+There are minimal disadvantages to taking part in the research. The main disadvantage is the time it will take. The questionnaire will take around 10 minutes to complete and the interview will take up to one hour. Some people may find distressing to reflect on their experiences or their care. You will be able to skip any questions that you do not wish to answer or you can stop the questionnaire or interview at any point, should you wish to do so.","What are the possible disadvantages or risks of taking part?
+There are minimal disadvantages to taking part in the research. The main disadvantage is the time it will take. The questionnaire will take around 10 minutes to complete and the interview will take up to one hour. Some people may find distressing to reflect on their experiences or their care. You will be able to skip any questions that you do not wish to answer or you can stop the questionnaire or interview at any point, should you wish to do so.",,,010,010,"p18,p19","p18,p19","I need know what are the disadvantages or risks.","I need know what are the disadvantages or risks.",001,001,,,,,2,2
+75,75,sre315,sre315,3,3,"What are the possible disadvantages or risks of taking part?
+There are minimal disadvantages to taking part in the research. The main disadvantage is the time it will take. The questionnaire will take around 10 minutes to complete and the interview will take up to one hour. Some people may find distressing to reflect on their experiences or their care. You will be able to skip any questions that you do not wish to answer or you can stop the questionnaire or interview at any point, should you wish to do so.
+Will my taking part in the study be kept confidential?
+Neither the information that is collected about you during the course of the study nor any of the results published will identify you personally. Instead, you will be allocated a number at the start of the study that will be used to identify your data; your name and address will not be recorded on the questionnaire. All personal details (such as your name and address) will be stored separately in locked filling cabinets and held on computers which will be password protected and only accessible by members of the University of Southampton research team.
+All data, including audio recordings, collected in the study will be held for 10 years and will then be destroyed in accordance with University of Southampton policy.","What are the possible disadvantages or risks of taking part?
+There are minimal disadvantages to taking part in the research. The main disadvantage is the time it will take. The questionnaire will take around 10 minutes to complete and the interview will take up to one hour. Some people may find distressing to reflect on their experiences or their care. You will be able to skip any questions that you do not wish to answer or you can stop the questionnaire or interview at any point, should you wish to do so.
+Will my taking part in the study be kept confidential?
+Neither the information that is collected about you during the course of the study nor any of the results published will identify you personally. Instead, you will be allocated a number at the start of the study that will be used to identify your data; your name and address will not be recorded on the questionnaire. All personal details (such as your name and address) will be stored separately in locked filling cabinets and held on computers which will be password protected and only accessible by members of the University of Southampton research team.
+All data, including audio recordings, collected in the study will be held for 10 years and will then be destroyed in accordance with University of Southampton policy.",,,010,010,"p18,p19,p20,p21,p22","p18,p19,p20,p21,p22","The leaflet does not mention risks or disadvantages..","The leaflet does not mention risks or disadvantages..",001,001,,,,,2,2
+76,76,sre315,sre315,3,3,"What are the possible disadvantages or risks of taking part?
+There are minimal disadvantages to taking part in the research. The main disadvantage is the time it will take. The questionnaire will take around 10 minutes to complete and the interview will take up to one hour. Some people may find distressing to reflect on their experiences or their care. You will be able to skip any questions that you do not wish to answer or you can stop the questionnaire or interview at any point, should you wish to do so.
+Will my taking part in the study be kept confidential?
+Neither the information that is collected about you during the course of the study nor any of the results published will identify you personally. Instead, you will be allocated a number at the start of the study that will be used to identify your data; your name and address will not be recorded on the questionnaire. All personal details (such as your name and address) will be stored separately in locked filling cabinets and held on computers which will be password protected and only accessible by members of the University of Southampton research team.
+All data, including audio recordings, collected in the study will be held for 10 years and will then be destroyed in accordance with University of Southampton policy.","What are the possible disadvantages or risks of taking part?
+There are minimal disadvantages to taking part in the research. The main disadvantage is the time it will take. The questionnaire will take around 10 minutes to complete and the interview will take up to one hour. Some people may find distressing to reflect on their experiences or their care. You will be able to skip any questions that you do not wish to answer or you can stop the questionnaire or interview at any point, should you wish to do so.
+Will my taking part in the study be kept confidential?
+Neither the information that is collected about you during the course of the study nor any of the results published will identify you personally. Instead, you will be allocated a number at the start of the study that will be used to identify your data; your name and address will not be recorded on the questionnaire. All personal details (such as your name and address) will be stored separately in locked filling cabinets and held on computers which will be password protected and only accessible by members of the University of Southampton research team.
+All data, including audio recordings, collected in the study will be held for 10 years and will then be destroyed in accordance with University of Southampton policy.",,,010,010,"p18,p19,p20,p21,p22","p18,p19,p20,p21,p22","The leaflet does not mention risks or disadvantages..","The leaflet does not mention risks or disadvantages..",001,001,,,,,2,2
+77,77,sre315,sre315,3,3,"What will happen to me if I take part in the study?
+You will be asked to complete a questionnaire about your experience of the workshop. The questionnaire will include questions about what you liked and didn't like about the workshop format and content. The questionnaire can be completed at the end of the workshop session, or at home and returned to us in a freepost envelope which we will provide.
+You will also be asked whether you are happy to take part in an interview about your experience of the workshop. We will not be able to talk to everyone but would like to talk to men of different ages, who have had different cancer treatments and different levels of experience of computing. Interviews will be audio recorded so that we can analyse them later. The interview will not take more than 60 minutes. There are no 'right' or 'wrong' answers, we are interested in your opinions and experiences. The interview can be held at the hospital, a university office or at your home, whichever you prefer, and at a time convenient to you. Your responses will be anonymous and you will not be identifiable from any of the recordings or reports arising from the study.","What will happen to me if I take part in the study?
+You will be asked to complete a questionnaire about your experience of the workshop. The questionnaire will include questions about what you liked and didn't like about the workshop format and content. The questionnaire can be completed at the end of the workshop session, or at home and returned to us in a freepost envelope which we will provide.
+You will also be asked whether you are happy to take part in an interview about your experience of the workshop. We will not be able to talk to everyone but would like to talk to men of different ages, who have had different cancer treatments and different levels of experience of computing. Interviews will be audio recorded so that we can analyse them later. The interview will not take more than 60 minutes. There are no 'right' or 'wrong' answers, we are interested in your opinions and experiences. The interview can be held at the hospital, a university office or at your home, whichever you prefer, and at a time convenient to you. Your responses will be anonymous and you will not be identifiable from any of the recordings or reports arising from the study.",,,010,010,"p13,p14,p15","p13,p14,p15","The leaflet does not mention changes.","The leaflet does not mention changes.",001,001,,,,,2,2
+78,78,sre315,sre315,4,4,TrueNTH,TrueNTH,,,010,010,p4,p4,"What you mean with TrueNTH","What you mean with TrueNTH",001,001,,,,,1,1
+79,79,sre315,sre315,4,4,wellbeing,wellbeing,,,010,010,p12,p12,"What means wellbeing.","What means wellbeing.",001,001,,,,,1,1
+80,80,sre315,sre315,4,4,NHS,NHS,,,010,010,p22,p22,"What you mean with NHS.","What you mean with NHS.",001,001,,,,,1,1
+81,81,sre312,sre312,1,1,FluPOC,FluPOC,,,010,010,p4,p4,"I don't know what means FluPOC.","I don't know what means FluPOC.",001,001,,,,,1,1
+82,82,sre312,sre312,1,1,COPD,COPD,,,010,010,p9,p9,"I don't know what means COPD.","I don't know what means COPD.",001,001,,,,,1,1
+83,83,sre312,sre312,2,2,GP,GP,,,010,010,p8,p8,"What you mean with GP?","What you mean with GP?",001,001,,,,,1,1
+84,84,sre312,sre312,2,2,NHS,NHS,,,010,010,p26,p26,"What you mean with NHS?","What you mean with NHS?",001,001,,,,,1,1
+85,85,sre312,sre312,2,2,Maggieâ€™s,Maggieâ€™s,,,010,010,p35,p35,"What you mean with Maggieâ€™s?","What you mean with Maggieâ€™s?",001,001,,,,,1,1
+86,86,sre312,sre312,2,2,MSRG,MSRG,,,010,010,p49,p49,"What you mean with MSRG?","What you mean with MSRG?",001,001,,,,,1,1
+87,87,sre312,sre312,3,3,NRES,NRES,,,010,010,p4,p4,"What you mean with NRES?","What you mean with NRES?",001,001,,,,,1,1
+88,88,sre312,sre312,3,3,NHS,NHS,,,010,010,p8,p8,"What you mean with NHS?","What you mean with NHS?",001,001,,,,,1,1
+89,89,sre312,sre312,3,3,"SO17 1BJ","SO17 1BJ",,,010,010,p31,p31,"What you mean with SO17 1BJ?","What you mean with SO17 1BJ?",001,001,,,,,1,1
+90,90,sre312,sre312,4,4,surveillance,surveillance,,,010,010,p15,p15,"What is surveillance?","What is surveillance?",001,001,,,,,1,1
+91,91,sre312,sre312,4,4,NHS,NHS,,,010,010,p22,p22,"What is NHS?","What is NHS?",001,001,,,,,1,1
+92,92,sre312,sre312,4,4,GP,GP,,,010,010,p33,p33,"What is GP?","What is GP?",001,001,,,,,1,1
+93,93,sre312,sre312,4,4,6(1)(e),6(1)(e),,,010,010,p36,p36,"I don't know what you mean with that.","I don't know what you mean with that.",001,001,,,,,1,1
+94,94,sre321,sre321,1,1,FluPOC,FluPOC,,,010,010,p4,p4,"I don't know what means that.","I don't know what means that.",001,001,,,,,1,1
+95,95,sre321,sre321,1,1,COPD,COPD,,,010,010,p9,p9,"I don't know what means that.","I don't know what means that.",001,001,,,,,1,1
+96,96,sre321,sre321,1,1,sputum,sputum,,,010,010,p19,p19,"I don't know what means that.","I don't know what means that.",001,001,,,,,1,1
+97,97,sre321,sre321,2,2,GP,GP,,,010,010,p8,p8,"What you mean with that word.","What you mean with that word.",001,001,,,,,1,1
+98,98,sre321,sre321,2,2,"non-Hodgkin lymphoma","non-Hodgkin lymphoma",,,010,010,p14,p14,"What you mean with that words.","What you mean with that words.",001,001,,,,,1,1
+99,99,sre321,sre321,2,2,â€™s,â€™s,,,010,010,p29,p29,"What you mean with that word.","What you mean with that word.",001,001,,,,,1,1
+100,100,sre321,sre321,2,2,Maggieâ€™s,Maggieâ€™s,,,010,010,p35,p35,"What you mean with that word.","What you mean with that word.",001,001,,,,,1,1
+101,101,sre321,sre321,2,2,NHS,NHS,,,010,010,p42,p42,"What you mean with that word.","What you mean with that word.",001,001,,,,,1,1
+102,102,sre321,sre321,3,3," NHS"," NHS",,,010,010,p8,p8,"What means that word?","What means that word?",001,001,,,,,1,1
+103,103,sre321,sre321,3,3,Survivorship,Survivorship,,,010,010,p8,p8,"What means that word?","What means that word?",001,001,,,,,1,1
+104,104,sre321,sre321,4,4,TrueNTH,TrueNTH,,,010,010,p4,p4,"What you mean with that word?","What you mean with that word?",001,001,,,,,1,1
+105,105,sre321,sre321,4,4,spread,spread,,,010,010,p10,p10,"What mean that word?","What mean that word?",001,001,,,,,1,1
+106,106,sre321,sre321,4,4,NHS,NHS,,,010,010,p27,p27,"What you mean with that word?","What you mean with that word?",001,001,,,,,1,1
+107,107,sre321,sre321,4,4,6(1)(e)),6(1)(e)),,,010,010,p36,p36,"What you mean with that?","What you mean with that?",001,001,,,,,1,1
+108,108,sre323,sre323,1,1,FluPOC,FluPOC,,,010,010,p4,p4,"I don't know what mean that.","I don't know what mean that.",001,001,,,,,1,1
+109,109,sre323,sre323,1,1," COPD"," COPD",,,010,010,p9,p9,"I don't know what mean that.","I don't know what mean that.",001,001,,,,,1,1
+110,110,sre323,sre323,1,1,overleaf,overleaf,,,010,010,p10,p10,"I don't know what mean that.","I don't know what mean that.",001,001,,,,,1,1
+111,111,sre323,sre323,1,1,sputum,sputum,,,010,010,p19,p19,"I don't know what mean that.","I don't know what mean that.",001,001,,,,,1,1
+112,112,sre323,sre323,1,1,NHS,NHS,,,010,010,p36,p36,"I don't know what mean that.","I don't know what mean that.",001,001,,,,,1,1
+113,113,sre323,sre323,2,2,GP,GP,,,010,010,p8,p8,"I don't know what means that word.","I don't know what means that word.",001,001,,,,,1,1
+114,114,sre323,sre323,2,2,"non-Hodgkin lymphoma","non-Hodgkin lymphoma",,,010,010,p14,p14,"I don't know what means that word.","I don't know what means that word.",001,001,,,,,1,1
+115,115,sre323,sre323,2,2,peopleâ€™s,peopleâ€™s,,,010,010,p29,p29,"I don't know what means that word.","I don't know what means that word.",001,001,,,,,1,1
+116,116,sre323,sre323,3,3,Survivorship,Survivorship,,,010,010,p3,p3,"I don't know what mean that.","I don't know what mean that.",001,001,,,,,1,1
+117,117,sre323,sre323,3,3,Movember,Movember,,,010,010,p1,p1,"I don't know what mean that.","I don't know what mean that.",001,001,,,,,1,1
+118,118,sre323,sre323,3,3,NHS,NHS,,,010,010,p8,p8,"I don't know what mean that.","I don't know what mean that.",001,001,,,,,1,1
+119,119,sre323,sre323,3,3,held,held,,,010,010,p21,p21,"I don't know what mean that.","I don't know what mean that.",001,001,,,,,1,1
+120,120,sre323,sre323,4,4,TrueNTH,TrueNTH,,,010,010,p2,p2,"I don't know what mean that.","I don't know what mean that.",001,001,,,,,1,1
+121,121,sre323,sre323,4,4,NHS,NHS,,,010,010,p22,p22,"I don't know what mean that.","I don't know what mean that.",001,001,,,,,1,1
+122,122,sre323,sre323,4,4,6(1)(e)),6(1)(e)),,,010,010,p36,p36,"I don't know what mean that.","I don't know what mean that.",001,001,,,,,1,1
+123,123,sre324,sre324,1,1,FluPOC,FluPOC,,,010,010,p4,p4,"What means that word?","What means that word?",001,001,,,,,1,1
+124,124,sre324,sre324,1,1,regain,regain,,,010,010,p3,p3,"What means that word?","What means that word?",001,001,,,,,1,1
+125,125,sre324,sre324,1,1,NHS,NHS,,,010,010,p2,p2,"What means that word?","What means that word?",001,001,,,,,1,1
+126,126,sre324,sre324,1,1,COPD,COPD,,,010,010,p9,p9,"What means that word?","What means that word?",001,001,,,,,1,1
+127,127,sre324,sre324,1,1,briefly,briefly,,,010,010,p18,p18,"What means that word?","What means that word?",001,001,,,,,1,1
+128,128,sre324,sre324,1,1,swabs,swabs,,,010,010,p19,p19,"What means that word?","What means that word?",001,001,,,,,1,1
+129,129,sre324,sre324,1,1," sputum"," sputum",,,010,010,p20,p20,"What means that word?","What means that word?",001,001,,,,,1,1
+130,130,sre324,sre324,1,1,GP,GP,,,010,010,p25,p25,"What means that word?","What means that word?",001,001,,,,,1,1
+131,131,sre324,sre324,2,2,NHS,NHS,,,010,010,p1,p1,"What means that?","What means that?",001,001,,,,,1,1
+132,132,sre324,sre324,2,2," Macmillan"," Macmillan",,,010,010,p7,p7,"What means that?","What means that?",001,001,,,,,1,1
+133,133,sre324,sre324,2,2,GP,GP,,,010,010,p8,p8,"What means that?","What means that?",001,001,,,,,1,1
+134,134,sre324,sre324,2,2,"non-Hodgkin lymphoma. ","non-Hodgkin lymphoma. ",,,010,010,p14,p14,"What means that?","What means that?",001,001,,,,,1,1
+135,135,sre324,sre324,2,2,prior,prior,,,010,010,p14,p14,"What means that?","What means that?",001,001,,,,,1,1
+136,136,sre324,sre324,2,2,NHS,NHS,,,010,010,p26,p26,"What means that?","What means that?",001,001,,,,,1,1
+137,137,sre324,sre324,2,2,Maggieâ€™s,Maggieâ€™s,,,010,010,p35,p35,"What means that?","What means that?",001,001,,,,,1,1
+138,138,sre324,sre324,3,3,Survivorship,Survivorship,,,010,010,p3,p3,"I don't know what mean that.","I don't know what mean that.",001,001,,,,,1,1
+139,139,sre324,sre324,3,3,"Charity ","Charity ",,,010,010,p8,p8,"I don't know what mean that.","I don't know what mean that.",001,001,,,,,1,1
+140,140,sre324,sre324,3,3,withdraw,withdraw,,,010,010,p12,p12,"I don't know what mean that.","I don't know what mean that.",001,001,,,,,1,1
+141,141,sre324,sre324,3,3,workshop,workshop,,,010,010,p14,p14,"I don't know what mean that.","I don't know what mean that.",001,001,,,,,1,1
+142,142,sre324,sre324,3,3,Movember,Movember,,,010,010,p27,p27,"I don't know what mean that.","I don't know what mean that.",001,001,,,,,1,1
+143,143,sre324,sre324,4,4,TrueNTH,TrueNTH,,,010,010,p2,p2,"I don't know what mean that word or what you want to mean.","I don't know what mean that word or what you want to mean.",001,001,,,,,1,1
+144,144,sre324,sre324,4,4,surveillance,surveillance,,,010,010,p15,p15,"I don't know what mean that word or what you want to mean.","I don't know what mean that word or what you want to mean.",001,001,,,,,1,1
+145,145,sre324,sre324,4,4," opt-out"," opt-out",,,010,010,p23,p23,"I don't know what mean that word or what you want to mean.","I don't know what mean that word or what you want to mean.",001,001,,,,,1,1
+146,146,sre324,sre324,4,4,NHS,NHS,,,010,010,p27,p27,"I don't know what mean that word or what you want to mean.","I don't know what mean that word or what you want to mean.",001,001,,,,,1,1
+147,147,sre324,sre324,4,4," 6(1)(e))"," 6(1)(e))",,,010,010,p36,p36,"I don't know what mean that word or what you want to mean.","I don't know what mean that word or what you want to mean.",001,001,,,,,1,1
+148,148,sre324,sre324,4,4,Survivorship,Survivorship,,,010,010,p79,p79,"I don't know what mean that word or what you want to mean.","I don't know what mean that word or what you want to mean.",001,001,,,,,1,1
+149,149,sre324,sre324,4,4,Exeter,Exeter,,,010,010,p89,p89,"I don't know what mean that word or what you want to mean.","I don't know what mean that word or what you want to mean.",001,001,,,,,1,1
+150,150,sre324,sre324,4,4,PALS,PALS,,,010,010,p93,p93,"I don't know what mean that word or what you want to mean.","I don't know what mean that word or what you want to mean.",001,001,,,,,1,1
+151,151,sre28,sre28,1,1,FluPOC,FluPOC,,,010,010,p4,p4,SRE28,SRE28,100,100,,,,,2,2
+152,152,a,a,1,1,"acute respiratory illness: FluPOC","acute respiratory illness: FluPOC",,,000,000,p4,p4,a,a,000,000,,,,,und,und
+153,153,A16QZJ5IDIHYUK,A16QZJ5IDIHYUK,1,1,"NHS NHS Fundation Trust","NHS NHS Fundation Trust",,,010,010,p2,p2,"NHS NHS Fundation Trust
+Should be NHS Foundation Trust","NHS NHS Fundation Trust
+Should be NHS Foundation Trust",010,010,,,,,1,1
+154,154,A1X8UBJ3IA1T1,A1X8UBJ3IA1T1,1,1,"(such as antibiotics or antiviral medication for influenza)","(such as antibiotics or antiviral medication for influenza)",,,001,001,p9,p9,"I don't think you need to include the bracketed information, it complicates the scentance.","I don't think you need to include the bracketed information, it complicates the scentance.",001,001,,,,,3,3
+155,155,A1X8UBJ3IA1T1,A1X8UBJ3IA1T1,1,1,"and another blood test (about half a tablespoon full) for additional ethically approved research.","and another blood test (about half a tablespoon full) for additional ethically approved research.",,,001,001,p20,p20,"This is a massive and very dense paragraph which is difficult to follow. It needs to be split into smaller chunks.","This is a massive and very dense paragraph which is difficult to follow. It needs to be split into smaller chunks.",010,010,,,,,1,1
+</tbody></table>

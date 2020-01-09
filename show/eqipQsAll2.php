@@ -10,30 +10,33 @@ try{
 	$pdo = new PDO('mysql:host=srv01779.soton.ac.uk;dbname=wppi', 'wppi', 'zyfrmmSA0tHzIXmN');
 	$data = $pdo->query("SELECT idEqip,question FROM eqip")->fetchAll();	//"SELECT * INTO OUTFILE 'mydata.csv' FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '".'"'."' LINES TERMINATED BY '"."\n"."' FROM mtkCrwRevision GROUP BY idGroup,flag,idReviser,dateT")->fetchAll();//
 	
-	echo ("
-        <style>.commentWindow {    
-            border: 1px solid black;
-            padding:15px}
-        </style>
-        <table  class='commentWindow'>
-            <tr class='cRow'>
-                <th class='commentWindow small'>Id</th>
-                <th class='commentWindow small'>Question</th>
-            </tr>");
-    echo "<tbody class='pDiv hidden' id='pCom0'>";
+	
     $i=1;
 
     //$fp = fopen('mtkCrwRevisionGrpByIdGrpFlagIdReviserDateSubm.csv', 'w');
 
+    $first = true;
+
+    header('Content-Type: text/csv');
+    header('Content-Disposition: attachment;filename="export.csv"');
+    header('Cache-Control: max-age=0');
+
+    $out = fopen('php://output', 'w');
 	foreach ($data as $row) {
 		//$a=array($i,$row["idReviser"],$row["idGroup"],$row["flag"],$row["idLeaflet"],$row["idSentence"],"",$row["dateT"],$row["crwRevision"],$row["rejected"]);
 		//fputcsv($fp, $a);
-		echo ("<tr class='cRow'><td class='commentWindow small'>"
-            . $row["idEqip"]."</td><td class='commentWindow'>"
-            . $row["question"]."</td>"
-            ."</tr>");
-		$i=$i+1;        
-	}
+		
+		$i=$i+1;
+        if($first){
+            $titles = array();
+            foreach($row as $key=>$val){
+                $titles[] = $key;
+            }
+            fputcsv($out, $titles);
+            $first = false;
+        }
+        fputcsv($out, $row);
+    	}
     echo "</tbody>";
   	echo "</table>";
 }catch (PDOException $e) 
